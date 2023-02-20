@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F471BC9C-17CB-4F1B-A7B5-54237CF098AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SeviceCenter</RootNamespace>
+    <AssemblyName>SeviceCenter</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeLib, Version=1.1.0.0, Culture=neutral, PublicKeyToken=5f09bda868cc39e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.9.0.0, Culture=neutral, PublicKeyToken=0e99375e54769942, processorArchitecture=MSIL">
+      <HintPath>..\packages\Portable.BouncyCastle.1.9.0\lib\net40\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=4.1.1.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.19.4.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.19.4\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.1.2.6\lib\net46\K4os.Compression.LZ4.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Compression.LZ4.Streams, Version=1.2.6.0, Culture=neutral, PublicKeyToken=2186fa9121ef231d, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Compression.LZ4.Streams.1.2.6\lib\net46\K4os.Compression.LZ4.Streams.dll</HintPath>
+    </Reference>
+    <Reference Include="K4os.Hash.xxHash, Version=1.0.6.0, Culture=neutral, PublicKeyToken=32cd54395057cec3, processorArchitecture=MSIL">
+      <HintPath>..\packages\K4os.Hash.xxHash.1.0.6\lib\net46\K4os.Hash.xxHash.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.30.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.30\lib\net48\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.5.0.0\lib\net45\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.30\lib\net48\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdNet, Version=1.4.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.30\lib\net48\ZstdNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\ActPriemaPoGarantii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\ActVidachiPoGarantii.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\AddPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Authorisation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\BaseLineNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\BDWorker.cs" />
+    <Compile Include="src\ClientAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\ClientEditorTrue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\ClientsEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\DataEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\DbContext.cs" />
+    <Compile Include="src\Editor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Export.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Graf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\HistoryViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\HistoryViewerListViewLoader.cs" />
+    <Compile Include="src\HtmlWorker.cs" />
+    <Compile Include="src\IniFile.cs" />
+    <Compile Include="src\ItemComparer.cs" />
+    <Compile Include="src\ItemComparerClients.cs" />
+    <Compile Include="src\ItemComparerHistory.cs" />
+    <Compile Include="src\ItemComparerStock.cs" />
+    <Compile Include="src\KlientBase.cs" />
+    <Compile Include="src\PhoneExport.cs" />
+    <Compile Include="src\Printing_AKT_PRIEMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Printing_AKT_VIDACHI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Program.cs" />
+    <Compile Include="src\RedaktorAktov.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\SettingServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\SettingServer.Designer.cs">
+      <DependentUpon>SettingServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="src\SmsInfo.cs" />
+    <Compile Include="src\SmsStatus.cs" />
+    <Compile Include="src\States.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\Stock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\StockAddPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\StockEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\StockPictureShowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\SURPRISE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="src\TempraryBase.cs" />
+    <Compile Include="src\VirtualClient.cs" />
+    <Compile Include="src\ZIP.cs" />
+    <EmbeddedResource Include="Properties\SeviceCenter.Properties.Resources.resources" />
+    <EmbeddedResource Include="Properties\SeviceCenter.RedaktorAktov.resources" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="src\ActPriemaPoGarantii.resx">
+      <DependentUpon>ActPriemaPoGarantii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\ActVidachiPoGarantii.resx">
+      <DependentUpon>ActVidachiPoGarantii.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\AddPosition.resx">
+      <DependentUpon>AddPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Authorisation.resx">
+      <DependentUpon>Authorisation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\ClientEditorTrue.resx">
+      <DependentUpon>ClientEditorTrue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\ClientsEditor.resx">
+      <DependentUpon>ClientsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Graf.resx">
+      <DependentUpon>Graf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\HistoryViewer.resx">
+      <DependentUpon>HistoryViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Printing_AKT_PRIEMA.resx">
+      <DependentUpon>Printing_AKT_PRIEMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Printing_AKT_VIDACHI.resx">
+      <DependentUpon>Printing_AKT_VIDACHI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\RedaktorAktov.resx">
+      <DependentUpon>RedaktorAktov.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\SettingServer.resx">
+      <DependentUpon>SettingServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\States.resx">
+      <DependentUpon>States.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Stock.resx">
+      <DependentUpon>Stock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\StockAddPosition.resx">
+      <DependentUpon>StockAddPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\StockEditor.resx">
+      <DependentUpon>StockEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="libs\BarcodeLib.dll" />
+    <Content Include="libs\EPPlus.dll" />
+    <Content Include="libs\EPPlus.xml" />
+    <Content Include="libs\HtmlAgilityPack.dll" />
+    <Content Include="libs\HtmlAgilityPack.pdb" />
+    <Content Include="libs\HtmlAgilityPack.xml" />
+    <Content Include="libs\Newtonsoft.Json.dll" />
+    <Content Include="libs\Newtonsoft.Json.xml" />
+    <None Include="pic\save.png" />
+    <None Include="pic\add.png" />
+    <Content Include="logo.GIF" />
+    <Content Include="pic\Check0.png" />
+    <Content Include="pic\Check1.png" />
+    <None Include="pic\check_circle_outline_16.png" />
+    <None Include="pic\check_circle_outline_blank_16.png" />
+    <Content Include="pic\chip.png" />
+    <None Include="pic\clock.png" />
+    <Content Include="pic\Gotovo.png" />
+    <None Include="pic\graf.png" />
+    <Content Include="pic\kcmprocessor.png" />
+    <Content Include="pic\loader-small.gif" />
+    <Content Include="pic\phone.png" />
+    <Content Include="pic\Solglasovano.png" />
+    <None Include="pic\Status_diagnostika.png" />
+    <None Include="pic\Status_inWork.png" />
+    <None Include="pic\Status_parts.png" />
+    <None Include="pic\Status_PrinyatPoGarantii.png" />
+    <None Include="pic\Status_SoglasovanieSClientom.png" />
+    <None Include="pic\Status_Soglasovano.png" />
+    <None Include="pic\Status_Vidan.png" />
+    <None Include="pic\StatusReady.png" />
+    <None Include="pic\Status_allOreders.png" />
+    <Content Include="pic\tp.png" />
+    <Content Include="pic\zapchast.png" />
+    <None Include="Resources\zapchast.png" />
+    <None Include="Resources\tp.png" />
+    <None Include="Resources\Solglasovano.png" />
+    <None Include="Resources\phone.png" />
+    <None Include="Resources\loader-small.gif" />
+    <None Include="Resources\kcmprocessor.png" />
+    <None Include="Resources\Gotovo.png" />
+    <None Include="Resources\chip.png" />
+    <None Include="Resources\Check1.png" />
+    <None Include="Resources\Check0.png" />
+    <Content Include="settings\aboutUs.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\AdresSC.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Akts\DannieOFirme.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Akts\DogovorTextPriem.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Akts\DogovorTextVidacha.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Akts\FirmName.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Akts\Phone.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Akts\URDannie.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Akts\Прочти меня.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\brands.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\DeviceColour.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\garanty.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\komplektonst.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\masters.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\neispravnost.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\sostoyaniePriema.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Stock\brands.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Stock\DeviceColour.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Stock\TypeOvZIP.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\Stock\ustrojstvo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\ustrojstvo.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="settings\vipolnRaboti.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Stock\brands.txt" />
+    <Content Include="Stock\DeviceColour.txt" />
+    <Content Include="Stock\Photos\0gxcf110.qcf20180206212712777.PNG" />
+    <Content Include="Stock\Photos\0og1js2s.ayo20180208092933466.PNG" />
+    <Content Include="Stock\Photos\5d4gooat.msv20180206211930647.PNG" />
+    <Content Include="Stock\Photos\dkhay1hn.pnn20180208211736562.jpg" />
+    <Content Include="Stock\Photos\dw02cj4f.dky20180206212903550.PNG" />
+    <Content Include="Stock\Photos\f00k1qpi.kkb20180208222240401.jpg" />
+    <Content Include="Stock\Photos\glxjx4sr.prp20180206212906520.PNG" />
+    <Content Include="Stock\Photos\kpcthxdk.5oq20180208222412286.jpg" />
+    <Content Include="Stock\Photos\nkzx4vwn.1ri20180208222242685.jpg" />
+    <Content Include="Stock\Photos\pe0yvmfw.ut220180208092937025.PNG" />
+    <Content Include="Stock\Photos\pikth2im.3pu20180206212708826.PNG" />
+    <Content Include="Stock\Photos\q0ufyqtj.5gv20180206205846434.PNG" />
+    <Content Include="Stock\Photos\qgutv2qi.ito20180208222413844.jpg" />
+    <Content Include="Stock\Photos\vijo51cq.y2k20180208092935150.PNG" />
+    <Content Include="Stock\Photos\wk1vsonj.txw20180206212904943.PNG" />
+    <Content Include="Stock\Photos\wm4zzkpg.fha20180309165712203.jpg" />
+    <Content Include="Stock\Photos\xs1xulrz.u5s20180208211703226.jpg" />
+    <Content Include="Stock\Photos\z30xm0xo.qkh20180208093000547.PNG" />
+    <Content Include="Stock\TypeOvZIP.txt" />
+    <Content Include="Stock\ustrojstvo.txt" />
+    <Content Include="style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="reports\" />
+    <Folder Include="settings\backup\" />
+    <Folder Include="settings\Stock\Photos\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

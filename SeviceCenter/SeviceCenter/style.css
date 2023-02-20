@@ -1,0 +1,48 @@
+table {
+    width: 100%; /* Ширина таблицы */
+    border-collapse: collapse; /* Отображать только одинарные линии */
+}
+th {
+    text-align: left; /* Выравнивание по левому краю */
+    background: #ccc; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+td {
+    padding: 5px; /* Поля вокруг содержимого ячеек */
+    border: 1px solid black; /* Граница вокруг ячеек */
+}
+.HeadM {
+    text-align: center;
+}
+
+#UrDannie {
+    border-top: 1px solid black;
+    text-allign: top;
+
+    font-size: small;
+}
+.NoBo {
+    border: none;
+}
+#ServiceName {
+    font-size: 20pt;
+}
+#phone{
+    font-size: 15pt;
+    text-align: right;
+}
+.Nazvanie {
+    width: 20% !important;
+    text-align: right;
+}
+#pageEnd{
+    page-break-after: always;
+}
+.TextRight{
+    text-align: right;
+    width: 30%;
+}
+.smallText{
+    font-size: x-small ;
+}
