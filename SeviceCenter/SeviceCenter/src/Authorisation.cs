@@ -164,108 +164,117 @@ public class Authorisation : Form
 
 	private void InitializeComponent()
 	{
-			this.LoginComboBox = new System.Windows.Forms.ComboBox();
-			this.PasswordBox = new System.Windows.Forms.TextBox();
-			this.label1 = new System.Windows.Forms.Label();
-			this.label2 = new System.Windows.Forms.Label();
-			this.EnterButton = new System.Windows.Forms.Button();
-			this.btnSetting = new System.Windows.Forms.Button();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-			this.SuspendLayout();
-			// 
-			// LoginComboBox
-			// 
-			this.LoginComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.LoginComboBox.FormattingEnabled = true;
-			this.LoginComboBox.Location = new System.Drawing.Point(65, 6);
-			this.LoginComboBox.Name = "LoginComboBox";
-			this.LoginComboBox.Size = new System.Drawing.Size(273, 21);
-			this.LoginComboBox.TabIndex = 0;
-			this.LoginComboBox.SelectedIndexChanged += new System.EventHandler(this.LoginComboBox_SelectedIndexChanged);
-			// 
-			// PasswordBox
-			// 
-			this.PasswordBox.Location = new System.Drawing.Point(65, 33);
-			this.PasswordBox.Name = "PasswordBox";
-			this.PasswordBox.Size = new System.Drawing.Size(247, 20);
-			this.PasswordBox.TabIndex = 13;
-			this.PasswordBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PasswordBox_KeyDown);
-			// 
-			// label1
-			// 
-			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label1.Location = new System.Drawing.Point(4, 9);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(47, 13);
-			this.label1.TabIndex = 15;
-			this.label1.Text = "Логин:";
-			// 
-			// label2
-			// 
-			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.label2.Location = new System.Drawing.Point(4, 36);
-			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(55, 13);
-			this.label2.TabIndex = 16;
-			this.label2.Text = "Пароль:";
-			// 
-			// EnterButton
-			// 
-			this.EnterButton.Location = new System.Drawing.Point(84, 72);
-			this.EnterButton.Name = "EnterButton";
-			this.EnterButton.Size = new System.Drawing.Size(87, 23);
-			this.EnterButton.TabIndex = 17;
-			this.EnterButton.Text = "Войти";
-			this.EnterButton.UseVisualStyleBackColor = true;
-			this.EnterButton.Click += new System.EventHandler(this.EnterButton_Click);
-			// 
-			// btnSetting
-			// 
-			this.btnSetting.AutoSize = true;
-			this.btnSetting.Location = new System.Drawing.Point(195, 72);
-			this.btnSetting.Name = "btnSetting";
-			this.btnSetting.Size = new System.Drawing.Size(117, 23);
-			this.btnSetting.TabIndex = 18;
-			this.btnSetting.Text = "Настройка сервера";
-			this.btnSetting.UseVisualStyleBackColor = true;
-			this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
-			// 
-			// pictureBox1
-			// 
-			this.pictureBox1.Location = new System.Drawing.Point(318, 33);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(20, 20);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-			this.pictureBox1.TabIndex = 14;
-			this.pictureBox1.TabStop = false;
-			this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
-			this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
-			// 
-			// Authorisation
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(359, 107);
-			this.Controls.Add(this.btnSetting);
-			this.Controls.Add(this.EnterButton);
-			this.Controls.Add(this.label2);
-			this.Controls.Add(this.label1);
-			this.Controls.Add(this.PasswordBox);
-			this.Controls.Add(this.pictureBox1);
-			this.Controls.Add(this.LoginComboBox);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-			this.Name = "Authorisation";
-			this.Text = "Авторизация";
-			this.TopMost = true;
-			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Authorisation_FormClosing);
-			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Authorisation_FormClosed);
-			this.Load += new System.EventHandler(this.Authorisation_Load);
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.LoginComboBox = new System.Windows.Forms.ComboBox();
+            this.PasswordBox = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.EnterButton = new System.Windows.Forms.Button();
+            this.btnSetting = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // LoginComboBox
+            // 
+            this.LoginComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.LoginComboBox.FormattingEnabled = true;
+            this.LoginComboBox.Location = new System.Drawing.Point(87, 7);
+            this.LoginComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LoginComboBox.Name = "LoginComboBox";
+            this.LoginComboBox.Size = new System.Drawing.Size(363, 24);
+            this.LoginComboBox.TabIndex = 0;
+            this.LoginComboBox.SelectedIndexChanged += new System.EventHandler(this.LoginComboBox_SelectedIndexChanged);
+            // 
+            // PasswordBox
+            // 
+            this.PasswordBox.Location = new System.Drawing.Point(87, 41);
+            this.PasswordBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PasswordBox.Name = "PasswordBox";
+            this.PasswordBox.Size = new System.Drawing.Size(328, 22);
+            this.PasswordBox.TabIndex = 13;
+            this.PasswordBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PasswordBox_KeyDown);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(5, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 17);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Логин:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(5, 44);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(68, 17);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Пароль:";
+            // 
+            // EnterButton
+            // 
+            this.EnterButton.Location = new System.Drawing.Point(112, 89);
+            this.EnterButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EnterButton.Name = "EnterButton";
+            this.EnterButton.Size = new System.Drawing.Size(116, 28);
+            this.EnterButton.TabIndex = 17;
+            this.EnterButton.Text = "Войти";
+            this.EnterButton.UseVisualStyleBackColor = true;
+            this.EnterButton.Click += new System.EventHandler(this.EnterButton_Click);
+            // 
+            // btnSetting
+            // 
+            this.btnSetting.AutoSize = true;
+            this.btnSetting.Location = new System.Drawing.Point(260, 89);
+            this.btnSetting.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSetting.Name = "btnSetting";
+            this.btnSetting.Size = new System.Drawing.Size(156, 28);
+            this.btnSetting.TabIndex = 18;
+            this.btnSetting.Text = "Настройка сервера";
+            this.btnSetting.UseVisualStyleBackColor = true;
+            this.btnSetting.Click += new System.EventHandler(this.btnSetting_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(424, 41);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(20, 20);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
+            // 
+            // Authorisation
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(479, 132);
+            this.Controls.Add(this.btnSetting);
+            this.Controls.Add(this.EnterButton);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.PasswordBox);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.LoginComboBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Authorisation";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Авторизация";
+            this.TopMost = true;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Authorisation_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Authorisation_FormClosed);
+            this.Load += new System.EventHandler(this.Authorisation_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 	}
 

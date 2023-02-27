@@ -1795,109 +1795,109 @@ public class Form1 : Form
 
 	private void InitializeComponent()
 	{
-			this.MainListView = new System.Windows.Forms.ListView();
-			this.Number = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.DataPriema = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.DataVidachi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.DataPredoplati = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.surname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.phonee = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.AboutUS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.WhatRemont = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Brand = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Model = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.SerialNumber = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Sostoyanie = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.komplektnost = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.polomka = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.komment = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.PredvCoast = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Predoplata = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Zatrati = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Skidka = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Status = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.master = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.VipolnRaboti = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.garanty = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.WaitZakaz = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.Adress = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.AdressSC = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.DeviceColour = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-			this.NewClientButton = new System.Windows.Forms.Button();
-			this.button1 = new System.Windows.Forms.Button();
-			this.statusStrip = new System.Windows.Forms.StatusStrip();
-			this.StatusStripLabel = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
-			this.CountListViewLabel = new System.Windows.Forms.ToolStripStatusLabel();
-			this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-			this.AddPositionButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-			this.SearchFIOButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
-			this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-			this.SearchFullButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-			this.ShowPhoneWaitingButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-			this.WaitZakazButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-			this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-			this.SmsStripButton = new System.Windows.Forms.ToolStripButton();
-			this.SettingsButton = new System.Windows.Forms.ToolStripButton();
-			this.ReadyFilterCheckBox = new System.Windows.Forms.ToolStripButton();
-			this.ServiceAdressComboBox = new System.Windows.Forms.ToolStripComboBox();
-			this.StockButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-			this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
-			this.SearchFIOTextBox = new System.Windows.Forms.TextBox();
-			this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-			this.AllOrdersButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-			this.DiagnosticksButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-			this.SoglasovanieSKlientomButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-			this.SoglasovanoButton1 = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-			this.InWorkButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
-			this.PartWaitingButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
-			this.ReadyStatButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
-			this.PrinyatPoGarantiiButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
-			this.OutOfSCButton = new System.Windows.Forms.ToolStripButton();
-			this.toolStrip3 = new System.Windows.Forms.ToolStrip();
-			this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-			this.FullSearchPhone = new System.Windows.Forms.ToolStripTextBox();
-			this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
-			this.FullSearchType = new System.Windows.Forms.ToolStripComboBox();
-			this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
-			this.FullSearchBrand = new System.Windows.Forms.ToolStripComboBox();
-			this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
-			this.FullSearchModel = new System.Windows.Forms.ToolStripTextBox();
-			this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
-			this.FullSearchSerial = new System.Windows.Forms.ToolStripTextBox();
-			this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
-			this.FullSearchMaster = new System.Windows.Forms.ToolStripComboBox();
-			this.statusStrip.SuspendLayout();
-			this.toolStrip1.SuspendLayout();
-			this.toolStrip2.SuspendLayout();
-			this.toolStrip3.SuspendLayout();
-			this.SuspendLayout();
-			// 
-			// MainListView
-			// 
-			this.MainListView.AllowColumnReorder = true;
-			this.MainListView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.MainListView = new System.Windows.Forms.ListView();
+            this.Number = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DataPriema = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DataVidachi = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DataPredoplati = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.surname = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.phonee = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.AboutUS = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.WhatRemont = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Brand = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Model = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.SerialNumber = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Sostoyanie = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.komplektnost = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.polomka = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.komment = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.PredvCoast = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Predoplata = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Zatrati = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Price = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Skidka = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Status = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.master = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.VipolnRaboti = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.garanty = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.WaitZakaz = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.Adress = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.AdressSC = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DeviceColour = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.NewClientButton = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.statusStrip = new System.Windows.Forms.StatusStrip();
+            this.StatusStripLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.CountListViewLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.AddPositionButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.SearchFIOButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.SearchFullButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.ShowPhoneWaitingButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.WaitZakazButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
+            this.SmsStripButton = new System.Windows.Forms.ToolStripButton();
+            this.SettingsButton = new System.Windows.Forms.ToolStripButton();
+            this.ReadyFilterCheckBox = new System.Windows.Forms.ToolStripButton();
+            this.ServiceAdressComboBox = new System.Windows.Forms.ToolStripComboBox();
+            this.StockButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripButton3 = new System.Windows.Forms.ToolStripButton();
+            this.SearchFIOTextBox = new System.Windows.Forms.TextBox();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.AllOrdersButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
+            this.DiagnosticksButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
+            this.SoglasovanieSKlientomButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
+            this.SoglasovanoButton1 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.InWorkButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
+            this.PartWaitingButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator14 = new System.Windows.Forms.ToolStripSeparator();
+            this.ReadyStatButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator15 = new System.Windows.Forms.ToolStripSeparator();
+            this.PrinyatPoGarantiiButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator13 = new System.Windows.Forms.ToolStripSeparator();
+            this.OutOfSCButton = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip3 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.FullSearchPhone = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel3 = new System.Windows.Forms.ToolStripLabel();
+            this.FullSearchType = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripLabel4 = new System.Windows.Forms.ToolStripLabel();
+            this.FullSearchBrand = new System.Windows.Forms.ToolStripComboBox();
+            this.toolStripLabel5 = new System.Windows.Forms.ToolStripLabel();
+            this.FullSearchModel = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel6 = new System.Windows.Forms.ToolStripLabel();
+            this.FullSearchSerial = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel7 = new System.Windows.Forms.ToolStripLabel();
+            this.FullSearchMaster = new System.Windows.Forms.ToolStripComboBox();
+            this.statusStrip.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.toolStrip2.SuspendLayout();
+            this.toolStrip3.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // MainListView
+            // 
+            this.MainListView.AllowColumnReorder = true;
+            this.MainListView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.MainListView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.MainListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.MainListView.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.MainListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.Number,
             this.DataPriema,
             this.DataVidachi,
@@ -1926,207 +1926,213 @@ public class Form1 : Form
             this.Adress,
             this.AdressSC,
             this.DeviceColour});
-			this.MainListView.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.MainListView.FullRowSelect = true;
-			this.MainListView.GridLines = true;
-			this.MainListView.HideSelection = false;
-			this.MainListView.Location = new System.Drawing.Point(0, 54);
-			this.MainListView.MultiSelect = false;
-			this.MainListView.Name = "MainListView";
-			this.MainListView.Size = new System.Drawing.Size(1183, 592);
-			this.MainListView.TabIndex = 2;
-			this.MainListView.UseCompatibleStateImageBehavior = false;
-			this.MainListView.View = System.Windows.Forms.View.Details;
-			this.MainListView.VirtualMode = true;
-			this.MainListView.CacheVirtualItems += new System.Windows.Forms.CacheVirtualItemsEventHandler(this.MainListView_CacheVirtualItems);
-			this.MainListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.MainListView_ColumnClick);
-			this.MainListView.ColumnReordered += new System.Windows.Forms.ColumnReorderedEventHandler(this.MainListView_ColumnReordered);
-			this.MainListView.ColumnWidthChanged += new System.Windows.Forms.ColumnWidthChangedEventHandler(this.MainListView_ColumnWidthChanged);
-			this.MainListView.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.MainListView_RetrieveVirtualItem);
-			this.MainListView.SelectedIndexChanged += new System.EventHandler(this.MainListView_SelectedIndexChanged);
-			this.MainListView.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.MainListView_MouseDoubleClick);
-			// 
-			// Number
-			// 
-			this.Number.Text = "№";
-			// 
-			// DataPriema
-			// 
-			this.DataPriema.Text = "Дата приёма";
-			this.DataPriema.Width = 80;
-			// 
-			// DataVidachi
-			// 
-			this.DataVidachi.Text = "Дата выдачи";
-			this.DataVidachi.Width = 80;
-			// 
-			// DataPredoplati
-			// 
-			this.DataPredoplati.Text = "Дата предоплаты";
-			this.DataPredoplati.Width = 80;
-			// 
-			// surname
-			// 
-			this.surname.Text = "ФИО";
-			// 
-			// phonee
-			// 
-			this.phonee.Text = "Телефон";
-			this.phonee.Width = 90;
-			// 
-			// AboutUS
-			// 
-			this.AboutUS.Text = "Узнали о нас";
-			this.AboutUS.Width = 80;
-			// 
-			// WhatRemont
-			// 
-			this.WhatRemont.Text = "Тип устройства";
-			this.WhatRemont.Width = 95;
-			// 
-			// Brand
-			// 
-			this.Brand.Text = "Бренд";
-			// 
-			// Model
-			// 
-			this.Model.Text = "Модель";
-			// 
-			// SerialNumber
-			// 
-			this.SerialNumber.Text = "Серийный номер";
-			this.SerialNumber.Width = 84;
-			// 
-			// Sostoyanie
-			// 
-			this.Sostoyanie.Text = "Состояние";
-			this.Sostoyanie.Width = 70;
-			// 
-			// komplektnost
-			// 
-			this.komplektnost.Text = "Комплект";
-			this.komplektnost.Width = 65;
-			// 
-			// polomka
-			// 
-			this.polomka.Text = "Неисправность";
-			this.polomka.Width = 80;
-			// 
-			// komment
-			// 
-			this.komment.Text = "Комментарий";
-			this.komment.Width = 80;
-			// 
-			// PredvCoast
-			// 
-			this.PredvCoast.Text = "Предв. стоимость";
-			// 
-			// Predoplata
-			// 
-			this.Predoplata.Text = "Предоплата";
-			// 
-			// Zatrati
-			// 
-			this.Zatrati.Text = "Затраты";
-			// 
-			// Price
-			// 
-			this.Price.Text = "Цена";
-			// 
-			// Skidka
-			// 
-			this.Skidka.Text = "Скидка";
-			// 
-			// Status
-			// 
-			this.Status.Text = "Статус";
-			// 
-			// master
-			// 
-			this.master.Text = "Мастер";
-			// 
-			// VipolnRaboti
-			// 
-			this.VipolnRaboti.Text = "Выполненные работы";
-			// 
-			// garanty
-			// 
-			this.garanty.Text = "Гарантия";
-			// 
-			// WaitZakaz
-			// 
-			this.WaitZakaz.Text = "Заказать";
-			// 
-			// Adress
-			// 
-			this.Adress.Text = "Адрес";
-			// 
-			// AdressSC
-			// 
-			this.AdressSC.Text = "Адрес СЦ";
-			// 
-			// DeviceColour
-			// 
-			this.DeviceColour.Text = "Цвет";
-			// 
-			// NewClientButton
-			// 
-			this.NewClientButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.NewClientButton.Location = new System.Drawing.Point(0, 1);
-			this.NewClientButton.Name = "NewClientButton";
-			this.NewClientButton.Size = new System.Drawing.Size(115, 23);
-			this.NewClientButton.TabIndex = 1;
-			this.NewClientButton.Text = "Новый клиент";
-			this.NewClientButton.UseVisualStyleBackColor = true;
-			// 
-			// button1
-			// 
-			this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-			this.button1.Location = new System.Drawing.Point(121, 1);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(114, 23);
-			this.button1.TabIndex = 2;
-			this.button1.Text = "Редактировать";
-			this.button1.UseVisualStyleBackColor = true;
-			// 
-			// statusStrip
-			// 
-			this.statusStrip.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.MainListView.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.MainListView.FullRowSelect = true;
+            this.MainListView.GridLines = true;
+            this.MainListView.HideSelection = false;
+            this.MainListView.Location = new System.Drawing.Point(0, 66);
+            this.MainListView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MainListView.MultiSelect = false;
+            this.MainListView.Name = "MainListView";
+            this.MainListView.Size = new System.Drawing.Size(1577, 728);
+            this.MainListView.TabIndex = 2;
+            this.MainListView.UseCompatibleStateImageBehavior = false;
+            this.MainListView.View = System.Windows.Forms.View.Details;
+            this.MainListView.VirtualMode = true;
+            this.MainListView.CacheVirtualItems += new System.Windows.Forms.CacheVirtualItemsEventHandler(this.MainListView_CacheVirtualItems);
+            this.MainListView.ColumnClick += new System.Windows.Forms.ColumnClickEventHandler(this.MainListView_ColumnClick);
+            this.MainListView.ColumnReordered += new System.Windows.Forms.ColumnReorderedEventHandler(this.MainListView_ColumnReordered);
+            this.MainListView.ColumnWidthChanged += new System.Windows.Forms.ColumnWidthChangedEventHandler(this.MainListView_ColumnWidthChanged);
+            this.MainListView.RetrieveVirtualItem += new System.Windows.Forms.RetrieveVirtualItemEventHandler(this.MainListView_RetrieveVirtualItem);
+            this.MainListView.SelectedIndexChanged += new System.EventHandler(this.MainListView_SelectedIndexChanged);
+            this.MainListView.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.MainListView_MouseDoubleClick);
+            // 
+            // Number
+            // 
+            this.Number.Text = "№";
+            // 
+            // DataPriema
+            // 
+            this.DataPriema.Text = "Дата приёма";
+            this.DataPriema.Width = 80;
+            // 
+            // DataVidachi
+            // 
+            this.DataVidachi.Text = "Дата выдачи";
+            this.DataVidachi.Width = 80;
+            // 
+            // DataPredoplati
+            // 
+            this.DataPredoplati.Text = "Дата предоплаты";
+            this.DataPredoplati.Width = 80;
+            // 
+            // surname
+            // 
+            this.surname.Text = "ФИО";
+            // 
+            // phonee
+            // 
+            this.phonee.Text = "Телефон";
+            this.phonee.Width = 90;
+            // 
+            // AboutUS
+            // 
+            this.AboutUS.Text = "Узнали о нас";
+            this.AboutUS.Width = 80;
+            // 
+            // WhatRemont
+            // 
+            this.WhatRemont.Text = "Тип устройства";
+            this.WhatRemont.Width = 95;
+            // 
+            // Brand
+            // 
+            this.Brand.Text = "Бренд";
+            // 
+            // Model
+            // 
+            this.Model.Text = "Модель";
+            // 
+            // SerialNumber
+            // 
+            this.SerialNumber.Text = "Серийный номер";
+            this.SerialNumber.Width = 84;
+            // 
+            // Sostoyanie
+            // 
+            this.Sostoyanie.Text = "Состояние";
+            this.Sostoyanie.Width = 70;
+            // 
+            // komplektnost
+            // 
+            this.komplektnost.Text = "Комплект";
+            this.komplektnost.Width = 65;
+            // 
+            // polomka
+            // 
+            this.polomka.Text = "Неисправность";
+            this.polomka.Width = 80;
+            // 
+            // komment
+            // 
+            this.komment.Text = "Комментарий";
+            this.komment.Width = 80;
+            // 
+            // PredvCoast
+            // 
+            this.PredvCoast.Text = "Предв. стоимость";
+            // 
+            // Predoplata
+            // 
+            this.Predoplata.Text = "Предоплата";
+            // 
+            // Zatrati
+            // 
+            this.Zatrati.Text = "Затраты";
+            // 
+            // Price
+            // 
+            this.Price.Text = "Цена";
+            // 
+            // Skidka
+            // 
+            this.Skidka.Text = "Скидка";
+            // 
+            // Status
+            // 
+            this.Status.Text = "Статус";
+            // 
+            // master
+            // 
+            this.master.Text = "Мастер";
+            // 
+            // VipolnRaboti
+            // 
+            this.VipolnRaboti.Text = "Выполненные работы";
+            // 
+            // garanty
+            // 
+            this.garanty.Text = "Гарантия";
+            // 
+            // WaitZakaz
+            // 
+            this.WaitZakaz.Text = "Заказать";
+            // 
+            // Adress
+            // 
+            this.Adress.Text = "Адрес";
+            // 
+            // AdressSC
+            // 
+            this.AdressSC.Text = "Адрес СЦ";
+            // 
+            // DeviceColour
+            // 
+            this.DeviceColour.Text = "Цвет";
+            // 
+            // NewClientButton
+            // 
+            this.NewClientButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.NewClientButton.Location = new System.Drawing.Point(0, 1);
+            this.NewClientButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NewClientButton.Name = "NewClientButton";
+            this.NewClientButton.Size = new System.Drawing.Size(153, 28);
+            this.NewClientButton.TabIndex = 1;
+            this.NewClientButton.Text = "Новый клиент";
+            this.NewClientButton.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button1.Location = new System.Drawing.Point(161, 1);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(152, 28);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Редактировать";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // statusStrip
+            // 
+            this.statusStrip.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.statusStrip.AutoSize = false;
-			this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
-			this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statusStrip.AutoSize = false;
+            this.statusStrip.Dock = System.Windows.Forms.DockStyle.None;
+            this.statusStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.statusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.StatusStripLabel,
             this.toolStripStatusLabel2,
             this.CountListViewLabel});
-			this.statusStrip.Location = new System.Drawing.Point(0, 646);
-			this.statusStrip.Name = "statusStrip";
-			this.statusStrip.Size = new System.Drawing.Size(1183, 22);
-			this.statusStrip.TabIndex = 1;
-			this.statusStrip.Text = "statusStrip1";
-			// 
-			// StatusStripLabel
-			// 
-			this.StatusStripLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic);
-			this.StatusStripLabel.Name = "StatusStripLabel";
-			this.StatusStripLabel.Size = new System.Drawing.Size(0, 17);
-			// 
-			// toolStripStatusLabel2
-			// 
-			this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-			this.toolStripStatusLabel2.Size = new System.Drawing.Size(10, 17);
-			this.toolStripStatusLabel2.Text = "|";
-			// 
-			// CountListViewLabel
-			// 
-			this.CountListViewLabel.Name = "CountListViewLabel";
-			this.CountListViewLabel.Size = new System.Drawing.Size(0, 17);
-			this.CountListViewLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-			// 
-			// toolStrip1
-			// 
-			this.toolStrip1.Font = new System.Drawing.Font("Comic Sans MS", 10F);
-			this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.statusStrip.Location = new System.Drawing.Point(0, 795);
+            this.statusStrip.Name = "statusStrip";
+            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
+            this.statusStrip.Size = new System.Drawing.Size(1577, 27);
+            this.statusStrip.TabIndex = 1;
+            this.statusStrip.Text = "statusStrip1";
+            // 
+            // StatusStripLabel
+            // 
+            this.StatusStripLabel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic);
+            this.StatusStripLabel.Name = "StatusStripLabel";
+            this.StatusStripLabel.Size = new System.Drawing.Size(0, 21);
+            // 
+            // toolStripStatusLabel2
+            // 
+            this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(13, 21);
+            this.toolStripStatusLabel2.Text = "|";
+            // 
+            // CountListViewLabel
+            // 
+            this.CountListViewLabel.Name = "CountListViewLabel";
+            this.CountListViewLabel.Size = new System.Drawing.Size(0, 21);
+            this.CountListViewLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.Font = new System.Drawing.Font("Comic Sans MS", 10F);
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AddPositionButton,
             this.toolStripSeparator1,
             this.SearchFIOButton,
@@ -2148,194 +2154,196 @@ public class Form1 : Form
             this.StockButton,
             this.toolStripSeparator6,
             this.toolStripButton3});
-			this.toolStrip1.Location = new System.Drawing.Point(0, 0);
-			this.toolStrip1.Name = "toolStrip1";
-			this.toolStrip1.Size = new System.Drawing.Size(1183, 26);
-			this.toolStrip1.TabIndex = 3;
-			this.toolStrip1.Text = "toolStrip1";
-			// 
-			// AddPositionButton
-			// 
-			this.AddPositionButton.Image = global::SeviceCenter.Properties.Resources.add;
-			this.AddPositionButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.AddPositionButton.Name = "AddPositionButton";
-			this.AddPositionButton.Size = new System.Drawing.Size(92, 23);
-			this.AddPositionButton.Text = "Добавить";
-			this.AddPositionButton.Click += new System.EventHandler(this.AddPositionButton_Click);
-			// 
-			// toolStripSeparator1
-			// 
-			this.toolStripSeparator1.Name = "toolStripSeparator1";
-			this.toolStripSeparator1.Size = new System.Drawing.Size(6, 26);
-			// 
-			// SearchFIOButton
-			// 
-			this.SearchFIOButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.SearchFIOButton.Name = "SearchFIOButton";
-			this.SearchFIOButton.Size = new System.Drawing.Size(47, 23);
-			this.SearchFIOButton.Text = "ФИО:";
-			this.SearchFIOButton.Click += new System.EventHandler(this.SearchFIOButton_Click);
-			// 
-			// toolStripLabel2
-			// 
-			this.toolStripLabel2.AutoSize = false;
-			this.toolStripLabel2.Name = "toolStripLabel2";
-			this.toolStripLabel2.Size = new System.Drawing.Size(146, 23);
-			this.toolStripLabel2.Text = "toolStripLabel2";
-			// 
-			// toolStripButton1
-			// 
-			this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButton1.Name = "toolStripButton1";
-			this.toolStripButton1.Size = new System.Drawing.Size(101, 23);
-			this.toolStripButton1.Text = "Сброс поиска";
-			this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click_1);
-			// 
-			// toolStripSeparator2
-			// 
-			this.toolStripSeparator2.Name = "toolStripSeparator2";
-			this.toolStripSeparator2.Size = new System.Drawing.Size(6, 26);
-			// 
-			// SearchFullButton
-			// 
-			this.SearchFullButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.SearchFullButton.Name = "SearchFullButton";
-			this.SearchFullButton.Size = new System.Drawing.Size(105, 23);
-			this.SearchFullButton.Text = "Расширенный";
-			this.SearchFullButton.Click += new System.EventHandler(this.SearchFullButton_Click);
-			// 
-			// toolStripSeparator4
-			// 
-			this.toolStripSeparator4.Name = "toolStripSeparator4";
-			this.toolStripSeparator4.Size = new System.Drawing.Size(6, 26);
-			// 
-			// ShowPhoneWaitingButton
-			// 
-			this.ShowPhoneWaitingButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.ShowPhoneWaitingButton.Image = global::SeviceCenter.Properties.Resources.phone;
-			this.ShowPhoneWaitingButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.ShowPhoneWaitingButton.Name = "ShowPhoneWaitingButton";
-			this.ShowPhoneWaitingButton.RightToLeftAutoMirrorImage = true;
-			this.ShowPhoneWaitingButton.Size = new System.Drawing.Size(23, 23);
-			this.ShowPhoneWaitingButton.Text = "Показать  ожидающие звонка";
-			this.ShowPhoneWaitingButton.Click += new System.EventHandler(this.ShowPhoneWaitingButton_Click);
-			// 
-			// toolStripSeparator3
-			// 
-			this.toolStripSeparator3.Name = "toolStripSeparator3";
-			this.toolStripSeparator3.Size = new System.Drawing.Size(6, 26);
-			// 
-			// WaitZakazButton
-			// 
-			this.WaitZakazButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.WaitZakazButton.Image = global::SeviceCenter.Properties.Resources.chip;
-			this.WaitZakazButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.WaitZakazButton.Name = "WaitZakazButton";
-			this.WaitZakazButton.Size = new System.Drawing.Size(23, 23);
-			this.WaitZakazButton.Text = "Требует заказа";
-			this.WaitZakazButton.Click += new System.EventHandler(this.WaitZakazButton_Click);
-			// 
-			// toolStripSeparator7
-			// 
-			this.toolStripSeparator7.Name = "toolStripSeparator7";
-			this.toolStripSeparator7.Size = new System.Drawing.Size(6, 26);
-			// 
-			// toolStripButton2
-			// 
-			this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.toolStripButton2.Image = global::SeviceCenter.Properties.Resources.graf;
-			this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButton2.Name = "toolStripButton2";
-			this.toolStripButton2.Size = new System.Drawing.Size(23, 23);
-			this.toolStripButton2.Text = "Графики и отчёты";
-			this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
-			// 
-			// toolStripSeparator5
-			// 
-			this.toolStripSeparator5.Name = "toolStripSeparator5";
-			this.toolStripSeparator5.Size = new System.Drawing.Size(6, 26);
-			// 
-			// SmsStripButton
-			// 
-			this.SmsStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-			this.SmsStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.SmsStripButton.Name = "SmsStripButton";
-			this.SmsStripButton.Size = new System.Drawing.Size(23, 23);
-			this.SmsStripButton.Text = "Отправка смс";
-			this.SmsStripButton.Click += new System.EventHandler(this.SmsStripButton_Click);
-			// 
-			// SettingsButton
-			// 
-			this.SettingsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.SettingsButton.Name = "SettingsButton";
-			this.SettingsButton.Size = new System.Drawing.Size(85, 23);
-			this.SettingsButton.Text = "Настройки";
-			this.SettingsButton.Click += new System.EventHandler(this.SettingsButton_Click);
-			// 
-			// ReadyFilterCheckBox
-			// 
-			this.ReadyFilterCheckBox.BackColor = System.Drawing.SystemColors.Control;
-			this.ReadyFilterCheckBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-			this.ReadyFilterCheckBox.Image = global::SeviceCenter.Properties.Resources.Gotovo;
-			this.ReadyFilterCheckBox.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.ReadyFilterCheckBox.Name = "ReadyFilterCheckBox";
-			this.ReadyFilterCheckBox.Size = new System.Drawing.Size(76, 23);
-			this.ReadyFilterCheckBox.Text = "Готово";
-			this.ReadyFilterCheckBox.ToolTipText = "Показывать записи со статусом Готов, вместе с остальными.\r\nТак же при поиске учит" +
+            this.toolStrip1.Location = new System.Drawing.Point(0, 0);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1577, 31);
+            this.toolStrip1.TabIndex = 3;
+            this.toolStrip1.Text = "toolStrip1";
+            // 
+            // AddPositionButton
+            // 
+            this.AddPositionButton.Image = global::SeviceCenter.Properties.Resources.add;
+            this.AddPositionButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.AddPositionButton.Name = "AddPositionButton";
+            this.AddPositionButton.Size = new System.Drawing.Size(111, 28);
+            this.AddPositionButton.Text = "Добавить";
+            this.AddPositionButton.Click += new System.EventHandler(this.AddPositionButton_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
+            // 
+            // SearchFIOButton
+            // 
+            this.SearchFIOButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SearchFIOButton.Name = "SearchFIOButton";
+            this.SearchFIOButton.Size = new System.Drawing.Size(57, 28);
+            this.SearchFIOButton.Text = "ФИО:";
+            this.SearchFIOButton.Click += new System.EventHandler(this.SearchFIOButton_Click);
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.AutoSize = false;
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(146, 23);
+            this.toolStripLabel2.Text = "toolStripLabel2";
+            // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(124, 28);
+            this.toolStripButton1.Text = "Сброс поиска";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click_1);
+            // 
+            // toolStripSeparator2
+            // 
+            this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
+            // 
+            // SearchFullButton
+            // 
+            this.SearchFullButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SearchFullButton.Name = "SearchFullButton";
+            this.SearchFullButton.Size = new System.Drawing.Size(128, 28);
+            this.SearchFullButton.Text = "Расширенный";
+            this.SearchFullButton.Click += new System.EventHandler(this.SearchFullButton_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 31);
+            // 
+            // ShowPhoneWaitingButton
+            // 
+            this.ShowPhoneWaitingButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.ShowPhoneWaitingButton.Image = global::SeviceCenter.Properties.Resources.phone;
+            this.ShowPhoneWaitingButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ShowPhoneWaitingButton.Name = "ShowPhoneWaitingButton";
+            this.ShowPhoneWaitingButton.RightToLeftAutoMirrorImage = true;
+            this.ShowPhoneWaitingButton.Size = new System.Drawing.Size(29, 28);
+            this.ShowPhoneWaitingButton.Text = "Показать  ожидающие звонка";
+            this.ShowPhoneWaitingButton.Click += new System.EventHandler(this.ShowPhoneWaitingButton_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 31);
+            // 
+            // WaitZakazButton
+            // 
+            this.WaitZakazButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.WaitZakazButton.Image = global::SeviceCenter.Properties.Resources.chip;
+            this.WaitZakazButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.WaitZakazButton.Name = "WaitZakazButton";
+            this.WaitZakazButton.Size = new System.Drawing.Size(29, 28);
+            this.WaitZakazButton.Text = "Требует заказа";
+            this.WaitZakazButton.Click += new System.EventHandler(this.WaitZakazButton_Click);
+            // 
+            // toolStripSeparator7
+            // 
+            this.toolStripSeparator7.Name = "toolStripSeparator7";
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 31);
+            // 
+            // toolStripButton2
+            // 
+            this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton2.Image = global::SeviceCenter.Properties.Resources.graf;
+            this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton2.Name = "toolStripButton2";
+            this.toolStripButton2.Size = new System.Drawing.Size(29, 28);
+            this.toolStripButton2.Text = "Графики и отчёты";
+            this.toolStripButton2.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
+            // toolStripSeparator5
+            // 
+            this.toolStripSeparator5.Name = "toolStripSeparator5";
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 31);
+            // 
+            // SmsStripButton
+            // 
+            this.SmsStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.SmsStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SmsStripButton.Name = "SmsStripButton";
+            this.SmsStripButton.Size = new System.Drawing.Size(29, 28);
+            this.SmsStripButton.Text = "Отправка смс";
+            this.SmsStripButton.Click += new System.EventHandler(this.SmsStripButton_Click);
+            // 
+            // SettingsButton
+            // 
+            this.SettingsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SettingsButton.Name = "SettingsButton";
+            this.SettingsButton.Size = new System.Drawing.Size(102, 28);
+            this.SettingsButton.Text = "Настройки";
+            this.SettingsButton.Click += new System.EventHandler(this.SettingsButton_Click);
+            // 
+            // ReadyFilterCheckBox
+            // 
+            this.ReadyFilterCheckBox.BackColor = System.Drawing.SystemColors.Control;
+            this.ReadyFilterCheckBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ReadyFilterCheckBox.Image = global::SeviceCenter.Properties.Resources.Gotovo;
+            this.ReadyFilterCheckBox.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ReadyFilterCheckBox.Name = "ReadyFilterCheckBox";
+            this.ReadyFilterCheckBox.Size = new System.Drawing.Size(91, 28);
+            this.ReadyFilterCheckBox.Text = "Готово";
+            this.ReadyFilterCheckBox.ToolTipText = "Показывать записи со статусом Готов, вместе с остальными.\r\nТак же при поиске учит" +
     "ывается, какой из статусов выбран";
-			this.ReadyFilterCheckBox.Click += new System.EventHandler(this.ReadyFilterCheckBox_Click);
-			// 
-			// ServiceAdressComboBox
-			// 
-			this.ServiceAdressComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
-			this.ServiceAdressComboBox.Items.AddRange(new object[] {
+            this.ReadyFilterCheckBox.Click += new System.EventHandler(this.ReadyFilterCheckBox_Click);
+            // 
+            // ServiceAdressComboBox
+            // 
+            this.ServiceAdressComboBox.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
+            this.ServiceAdressComboBox.Items.AddRange(new object[] {
             ""});
-			this.ServiceAdressComboBox.Name = "ServiceAdressComboBox";
-			this.ServiceAdressComboBox.Size = new System.Drawing.Size(130, 26);
-			this.ServiceAdressComboBox.ToolTipText = "Искать только в этом сервисе, если пусто, то во всех";
-			this.ServiceAdressComboBox.TextChanged += new System.EventHandler(this.ServiceAdressComboBox_TextChanged);
-			// 
-			// StockButton
-			// 
-			this.StockButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.StockButton.Name = "StockButton";
-			this.StockButton.Size = new System.Drawing.Size(52, 23);
-			this.StockButton.Text = "Склад";
-			this.StockButton.ToolTipText = "Склад";
-			this.StockButton.Click += new System.EventHandler(this.StockButton_Click);
-			// 
-			// toolStripSeparator6
-			// 
-			this.toolStripSeparator6.Name = "toolStripSeparator6";
-			this.toolStripSeparator6.Size = new System.Drawing.Size(6, 26);
-			// 
-			// toolStripButton3
-			// 
-			this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButton3.Name = "toolStripButton3";
-			this.toolStripButton3.Size = new System.Drawing.Size(74, 23);
-			this.toolStripButton3.Text = "Клиенты";
-			this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
-			// 
-			// SearchFIOTextBox
-			// 
-			this.SearchFIOTextBox.BackColor = System.Drawing.SystemColors.Info;
-			this.SearchFIOTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.SearchFIOTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.SearchFIOTextBox.ForeColor = System.Drawing.SystemColors.InfoText;
-			this.SearchFIOTextBox.Location = new System.Drawing.Point(155, 1);
-			this.SearchFIOTextBox.Name = "SearchFIOTextBox";
-			this.SearchFIOTextBox.Size = new System.Drawing.Size(142, 23);
-			this.SearchFIOTextBox.TabIndex = 4;
-			this.SearchFIOTextBox.TextChanged += new System.EventHandler(this.SearchFIOTextBox_TextChanged);
-			this.SearchFIOTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SearchFIOTextBox_KeyDown);
-			// 
-			// toolStrip2
-			// 
-			this.toolStrip2.AllowItemReorder = true;
-			this.toolStrip2.BackColor = System.Drawing.SystemColors.Control;
-			this.toolStrip2.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ServiceAdressComboBox.Name = "ServiceAdressComboBox";
+            this.ServiceAdressComboBox.Size = new System.Drawing.Size(172, 31);
+            this.ServiceAdressComboBox.ToolTipText = "Искать только в этом сервисе, если пусто, то во всех";
+            this.ServiceAdressComboBox.TextChanged += new System.EventHandler(this.ServiceAdressComboBox_TextChanged);
+            // 
+            // StockButton
+            // 
+            this.StockButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.StockButton.Name = "StockButton";
+            this.StockButton.Size = new System.Drawing.Size(62, 28);
+            this.StockButton.Text = "Склад";
+            this.StockButton.ToolTipText = "Склад";
+            this.StockButton.Click += new System.EventHandler(this.StockButton_Click);
+            // 
+            // toolStripSeparator6
+            // 
+            this.toolStripSeparator6.Name = "toolStripSeparator6";
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 31);
+            // 
+            // toolStripButton3
+            // 
+            this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton3.Name = "toolStripButton3";
+            this.toolStripButton3.Size = new System.Drawing.Size(88, 28);
+            this.toolStripButton3.Text = "Клиенты";
+            this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
+            // 
+            // SearchFIOTextBox
+            // 
+            this.SearchFIOTextBox.BackColor = System.Drawing.SystemColors.Info;
+            this.SearchFIOTextBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.SearchFIOTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.SearchFIOTextBox.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.SearchFIOTextBox.Location = new System.Drawing.Point(207, 1);
+            this.SearchFIOTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchFIOTextBox.Name = "SearchFIOTextBox";
+            this.SearchFIOTextBox.Size = new System.Drawing.Size(189, 26);
+            this.SearchFIOTextBox.TabIndex = 4;
+            this.SearchFIOTextBox.TextChanged += new System.EventHandler(this.SearchFIOTextBox_TextChanged);
+            this.SearchFIOTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SearchFIOTextBox_KeyDown);
+            // 
+            // toolStrip2
+            // 
+            this.toolStrip2.AllowItemReorder = true;
+            this.toolStrip2.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStrip2.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.AllOrdersButton,
             this.toolStripSeparator8,
             this.DiagnosticksButton,
@@ -2353,147 +2361,148 @@ public class Form1 : Form
             this.PrinyatPoGarantiiButton,
             this.toolStripSeparator13,
             this.OutOfSCButton});
-			this.toolStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
-			this.toolStrip2.Location = new System.Drawing.Point(0, 26);
-			this.toolStrip2.Name = "toolStrip2";
-			this.toolStrip2.Size = new System.Drawing.Size(1183, 26);
-			this.toolStrip2.TabIndex = 5;
-			this.toolStrip2.Text = "toolStrip2";
-			// 
-			// AllOrdersButton
-			// 
-			this.AllOrdersButton.Image = global::SeviceCenter.Properties.Resources.Status_allOreders;
-			this.AllOrdersButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.AllOrdersButton.Name = "AllOrdersButton";
-			this.AllOrdersButton.Size = new System.Drawing.Size(89, 23);
-			this.AllOrdersButton.Text = "Текущие";
-			this.AllOrdersButton.ToolTipText = "Показывает все записи, которые в данный момент в сервисе, и не имеют даты выдачи";
-			this.AllOrdersButton.Click += new System.EventHandler(this.AllOrdersButton_Click);
-			// 
-			// toolStripSeparator8
-			// 
-			this.toolStripSeparator8.Name = "toolStripSeparator8";
-			this.toolStripSeparator8.Size = new System.Drawing.Size(6, 26);
-			// 
-			// DiagnosticksButton
-			// 
-			this.DiagnosticksButton.Image = global::SeviceCenter.Properties.Resources.Status_diagnostika;
-			this.DiagnosticksButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.DiagnosticksButton.Name = "DiagnosticksButton";
-			this.DiagnosticksButton.Size = new System.Drawing.Size(116, 23);
-			this.DiagnosticksButton.Tag = "Диагностика";
-			this.DiagnosticksButton.Text = "Диагностика";
-			this.DiagnosticksButton.Click += new System.EventHandler(this.DiagnosticksButton_Click);
-			// 
-			// toolStripSeparator9
-			// 
-			this.toolStripSeparator9.Name = "toolStripSeparator9";
-			this.toolStripSeparator9.Size = new System.Drawing.Size(6, 26);
-			// 
-			// SoglasovanieSKlientomButton
-			// 
-			this.SoglasovanieSKlientomButton.Image = global::SeviceCenter.Properties.Resources.Status_SoglasovanieSClientom;
-			this.SoglasovanieSKlientomButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.SoglasovanieSKlientomButton.Name = "SoglasovanieSKlientomButton";
-			this.SoglasovanieSKlientomButton.Size = new System.Drawing.Size(203, 23);
-			this.SoglasovanieSKlientomButton.Tag = "Согласование с клиентом";
-			this.SoglasovanieSKlientomButton.Text = "Согласование с клиентом";
-			this.SoglasovanieSKlientomButton.Click += new System.EventHandler(this.SoglasovanieSKlientomButton_Click);
-			// 
-			// toolStripSeparator10
-			// 
-			this.toolStripSeparator10.Name = "toolStripSeparator10";
-			this.toolStripSeparator10.Size = new System.Drawing.Size(6, 26);
-			// 
-			// SoglasovanoButton1
-			// 
-			this.SoglasovanoButton1.Image = global::SeviceCenter.Properties.Resources.Status_Soglasovano;
-			this.SoglasovanoButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.SoglasovanoButton1.Name = "SoglasovanoButton1";
-			this.SoglasovanoButton1.Size = new System.Drawing.Size(113, 23);
-			this.SoglasovanoButton1.Tag = "Согласовано";
-			this.SoglasovanoButton1.Text = "Согласовано";
-			this.SoglasovanoButton1.Click += new System.EventHandler(this.SoglasovanoButton1_Click);
-			// 
-			// toolStripSeparator11
-			// 
-			this.toolStripSeparator11.Name = "toolStripSeparator11";
-			this.toolStripSeparator11.Size = new System.Drawing.Size(6, 26);
-			// 
-			// InWorkButton
-			// 
-			this.InWorkButton.Image = global::SeviceCenter.Properties.Resources.Status_inWork;
-			this.InWorkButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.InWorkButton.Name = "InWorkButton";
-			this.InWorkButton.Size = new System.Drawing.Size(138, 23);
-			this.InWorkButton.Tag = "Принят в работу";
-			this.InWorkButton.Text = "Принят в работу";
-			this.InWorkButton.Click += new System.EventHandler(this.InWorkButton_Click);
-			// 
-			// toolStripSeparator12
-			// 
-			this.toolStripSeparator12.Name = "toolStripSeparator12";
-			this.toolStripSeparator12.Size = new System.Drawing.Size(6, 26);
-			// 
-			// PartWaitingButton
-			// 
-			this.PartWaitingButton.Image = global::SeviceCenter.Properties.Resources.Status_parts;
-			this.PartWaitingButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.PartWaitingButton.Name = "PartWaitingButton";
-			this.PartWaitingButton.Size = new System.Drawing.Size(125, 23);
-			this.PartWaitingButton.Tag = "Ждёт запчасть";
-			this.PartWaitingButton.Text = "Ждёт запчасть";
-			this.PartWaitingButton.Click += new System.EventHandler(this.PartWaitingButton_Click);
-			// 
-			// toolStripSeparator14
-			// 
-			this.toolStripSeparator14.Name = "toolStripSeparator14";
-			this.toolStripSeparator14.Size = new System.Drawing.Size(6, 26);
-			// 
-			// ReadyStatButton
-			// 
-			this.ReadyStatButton.Image = global::SeviceCenter.Properties.Resources.StatusReady;
-			this.ReadyStatButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.ReadyStatButton.Name = "ReadyStatButton";
-			this.ReadyStatButton.Size = new System.Drawing.Size(68, 23);
-			this.ReadyStatButton.Tag = "Готов";
-			this.ReadyStatButton.Text = "Готов";
-			this.ReadyStatButton.Click += new System.EventHandler(this.ReadyStatButton_Click);
-			// 
-			// toolStripSeparator15
-			// 
-			this.toolStripSeparator15.Name = "toolStripSeparator15";
-			this.toolStripSeparator15.Size = new System.Drawing.Size(6, 26);
-			// 
-			// PrinyatPoGarantiiButton
-			// 
-			this.PrinyatPoGarantiiButton.Image = global::SeviceCenter.Properties.Resources.Status_PrinyatPoGarantii;
-			this.PrinyatPoGarantiiButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.PrinyatPoGarantiiButton.Name = "PrinyatPoGarantiiButton";
-			this.PrinyatPoGarantiiButton.Size = new System.Drawing.Size(166, 23);
-			this.PrinyatPoGarantiiButton.Tag = "Принят по гарантии";
-			this.PrinyatPoGarantiiButton.Text = "Принят по гарантии";
-			this.PrinyatPoGarantiiButton.Click += new System.EventHandler(this.PrinyatPoGarantiiButton_Click);
-			// 
-			// toolStripSeparator13
-			// 
-			this.toolStripSeparator13.Name = "toolStripSeparator13";
-			this.toolStripSeparator13.Size = new System.Drawing.Size(6, 26);
-			// 
-			// OutOfSCButton
-			// 
-			this.OutOfSCButton.Image = global::SeviceCenter.Properties.Resources.Status_Vidan;
-			this.OutOfSCButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.OutOfSCButton.Name = "OutOfSCButton";
-			this.OutOfSCButton.Size = new System.Drawing.Size(72, 23);
-			this.OutOfSCButton.Tag = "Выдан";
-			this.OutOfSCButton.Text = "Выдан";
-			this.OutOfSCButton.Click += new System.EventHandler(this.OutOfSCButton_Click);
-			// 
-			// toolStrip3
-			// 
-			this.toolStrip3.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-			this.toolStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStrip2.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
+            this.toolStrip2.Location = new System.Drawing.Point(0, 31);
+            this.toolStrip2.Name = "toolStrip2";
+            this.toolStrip2.Size = new System.Drawing.Size(1577, 31);
+            this.toolStrip2.TabIndex = 5;
+            this.toolStrip2.Text = "toolStrip2";
+            // 
+            // AllOrdersButton
+            // 
+            this.AllOrdersButton.Image = global::SeviceCenter.Properties.Resources.Status_allOreders;
+            this.AllOrdersButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.AllOrdersButton.Name = "AllOrdersButton";
+            this.AllOrdersButton.Size = new System.Drawing.Size(107, 28);
+            this.AllOrdersButton.Text = "Текущие";
+            this.AllOrdersButton.ToolTipText = "Показывает все записи, которые в данный момент в сервисе, и не имеют даты выдачи";
+            this.AllOrdersButton.Click += new System.EventHandler(this.AllOrdersButton_Click);
+            // 
+            // toolStripSeparator8
+            // 
+            this.toolStripSeparator8.Name = "toolStripSeparator8";
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 31);
+            // 
+            // DiagnosticksButton
+            // 
+            this.DiagnosticksButton.Image = global::SeviceCenter.Properties.Resources.Status_diagnostika;
+            this.DiagnosticksButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.DiagnosticksButton.Name = "DiagnosticksButton";
+            this.DiagnosticksButton.Size = new System.Drawing.Size(140, 28);
+            this.DiagnosticksButton.Tag = "Диагностика";
+            this.DiagnosticksButton.Text = "Диагностика";
+            this.DiagnosticksButton.Click += new System.EventHandler(this.DiagnosticksButton_Click);
+            // 
+            // toolStripSeparator9
+            // 
+            this.toolStripSeparator9.Name = "toolStripSeparator9";
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 31);
+            // 
+            // SoglasovanieSKlientomButton
+            // 
+            this.SoglasovanieSKlientomButton.Image = global::SeviceCenter.Properties.Resources.Status_SoglasovanieSClientom;
+            this.SoglasovanieSKlientomButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SoglasovanieSKlientomButton.Name = "SoglasovanieSKlientomButton";
+            this.SoglasovanieSKlientomButton.Size = new System.Drawing.Size(249, 28);
+            this.SoglasovanieSKlientomButton.Tag = "Согласование с клиентом";
+            this.SoglasovanieSKlientomButton.Text = "Согласование с клиентом";
+            this.SoglasovanieSKlientomButton.Click += new System.EventHandler(this.SoglasovanieSKlientomButton_Click);
+            // 
+            // toolStripSeparator10
+            // 
+            this.toolStripSeparator10.Name = "toolStripSeparator10";
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 31);
+            // 
+            // SoglasovanoButton1
+            // 
+            this.SoglasovanoButton1.Image = global::SeviceCenter.Properties.Resources.Status_Soglasovano;
+            this.SoglasovanoButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.SoglasovanoButton1.Name = "SoglasovanoButton1";
+            this.SoglasovanoButton1.Size = new System.Drawing.Size(139, 28);
+            this.SoglasovanoButton1.Tag = "Согласовано";
+            this.SoglasovanoButton1.Text = "Согласовано";
+            this.SoglasovanoButton1.Click += new System.EventHandler(this.SoglasovanoButton1_Click);
+            // 
+            // toolStripSeparator11
+            // 
+            this.toolStripSeparator11.Name = "toolStripSeparator11";
+            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 31);
+            // 
+            // InWorkButton
+            // 
+            this.InWorkButton.Image = global::SeviceCenter.Properties.Resources.Status_inWork;
+            this.InWorkButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.InWorkButton.Name = "InWorkButton";
+            this.InWorkButton.Size = new System.Drawing.Size(169, 28);
+            this.InWorkButton.Tag = "Принят в работу";
+            this.InWorkButton.Text = "Принят в работу";
+            this.InWorkButton.Click += new System.EventHandler(this.InWorkButton_Click);
+            // 
+            // toolStripSeparator12
+            // 
+            this.toolStripSeparator12.Name = "toolStripSeparator12";
+            this.toolStripSeparator12.Size = new System.Drawing.Size(6, 31);
+            // 
+            // PartWaitingButton
+            // 
+            this.PartWaitingButton.Image = global::SeviceCenter.Properties.Resources.Status_parts;
+            this.PartWaitingButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.PartWaitingButton.Name = "PartWaitingButton";
+            this.PartWaitingButton.Size = new System.Drawing.Size(152, 28);
+            this.PartWaitingButton.Tag = "Ждёт запчасть";
+            this.PartWaitingButton.Text = "Ждёт запчасть";
+            this.PartWaitingButton.Click += new System.EventHandler(this.PartWaitingButton_Click);
+            // 
+            // toolStripSeparator14
+            // 
+            this.toolStripSeparator14.Name = "toolStripSeparator14";
+            this.toolStripSeparator14.Size = new System.Drawing.Size(6, 31);
+            // 
+            // ReadyStatButton
+            // 
+            this.ReadyStatButton.Image = global::SeviceCenter.Properties.Resources.StatusReady;
+            this.ReadyStatButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.ReadyStatButton.Name = "ReadyStatButton";
+            this.ReadyStatButton.Size = new System.Drawing.Size(81, 28);
+            this.ReadyStatButton.Tag = "Готов";
+            this.ReadyStatButton.Text = "Готов";
+            this.ReadyStatButton.Click += new System.EventHandler(this.ReadyStatButton_Click);
+            // 
+            // toolStripSeparator15
+            // 
+            this.toolStripSeparator15.Name = "toolStripSeparator15";
+            this.toolStripSeparator15.Size = new System.Drawing.Size(6, 31);
+            // 
+            // PrinyatPoGarantiiButton
+            // 
+            this.PrinyatPoGarantiiButton.Image = global::SeviceCenter.Properties.Resources.Status_PrinyatPoGarantii;
+            this.PrinyatPoGarantiiButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.PrinyatPoGarantiiButton.Name = "PrinyatPoGarantiiButton";
+            this.PrinyatPoGarantiiButton.Size = new System.Drawing.Size(202, 28);
+            this.PrinyatPoGarantiiButton.Tag = "Принят по гарантии";
+            this.PrinyatPoGarantiiButton.Text = "Принят по гарантии";
+            this.PrinyatPoGarantiiButton.Click += new System.EventHandler(this.PrinyatPoGarantiiButton_Click);
+            // 
+            // toolStripSeparator13
+            // 
+            this.toolStripSeparator13.Name = "toolStripSeparator13";
+            this.toolStripSeparator13.Size = new System.Drawing.Size(6, 31);
+            // 
+            // OutOfSCButton
+            // 
+            this.OutOfSCButton.Image = global::SeviceCenter.Properties.Resources.Status_Vidan;
+            this.OutOfSCButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.OutOfSCButton.Name = "OutOfSCButton";
+            this.OutOfSCButton.Size = new System.Drawing.Size(87, 28);
+            this.OutOfSCButton.Tag = "Выдан";
+            this.OutOfSCButton.Text = "Выдан";
+            this.OutOfSCButton.Click += new System.EventHandler(this.OutOfSCButton_Click);
+            // 
+            // toolStrip3
+            // 
+            this.toolStrip3.Font = new System.Drawing.Font("Comic Sans MS", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.toolStrip3.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.toolStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripLabel1,
             this.FullSearchPhone,
             this.toolStripLabel3,
@@ -2506,127 +2515,131 @@ public class Form1 : Form
             this.FullSearchSerial,
             this.toolStripLabel7,
             this.FullSearchMaster});
-			this.toolStrip3.Location = new System.Drawing.Point(0, 52);
-			this.toolStrip3.Name = "toolStrip3";
-			this.toolStrip3.Size = new System.Drawing.Size(1183, 25);
-			this.toolStrip3.TabIndex = 6;
-			this.toolStrip3.Text = "toolStrip3";
-			this.toolStrip3.Visible = false;
-			// 
-			// toolStripLabel1
-			// 
-			this.toolStripLabel1.Name = "toolStripLabel1";
-			this.toolStripLabel1.Size = new System.Drawing.Size(40, 22);
-			this.toolStripLabel1.Text = "Тел:";
-			// 
-			// FullSearchPhone
-			// 
-			this.FullSearchPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.FullSearchPhone.Name = "FullSearchPhone";
-			this.FullSearchPhone.Size = new System.Drawing.Size(130, 25);
-			this.FullSearchPhone.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchPhone_KeyDown);
-			this.FullSearchPhone.TextChanged += new System.EventHandler(this.FullSearchPhone_TextChanged);
-			// 
-			// toolStripLabel3
-			// 
-			this.toolStripLabel3.Name = "toolStripLabel3";
-			this.toolStripLabel3.Size = new System.Drawing.Size(41, 22);
-			this.toolStripLabel3.Text = "Тип:";
-			// 
-			// FullSearchType
-			// 
-			this.FullSearchType.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
-			this.FullSearchType.Name = "FullSearchType";
-			this.FullSearchType.Size = new System.Drawing.Size(150, 25);
-			this.FullSearchType.SelectedIndexChanged += new System.EventHandler(this.FullSearchType_SelectedIndexChanged);
-			this.FullSearchType.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchType_KeyDown);
-			this.FullSearchType.TextChanged += new System.EventHandler(this.FullSearchType_TextChanged);
-			// 
-			// toolStripLabel4
-			// 
-			this.toolStripLabel4.Name = "toolStripLabel4";
-			this.toolStripLabel4.Size = new System.Drawing.Size(52, 22);
-			this.toolStripLabel4.Text = "Бренд:";
-			// 
-			// FullSearchBrand
-			// 
-			this.FullSearchBrand.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
-			this.FullSearchBrand.Name = "FullSearchBrand";
-			this.FullSearchBrand.Size = new System.Drawing.Size(128, 25);
-			this.FullSearchBrand.SelectedIndexChanged += new System.EventHandler(this.FullSearchBrand_SelectedIndexChanged);
-			this.FullSearchBrand.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchBrand_KeyDown);
-			this.FullSearchBrand.TextChanged += new System.EventHandler(this.FullSearchBrand_TextChanged);
-			// 
-			// toolStripLabel5
-			// 
-			this.toolStripLabel5.Name = "toolStripLabel5";
-			this.toolStripLabel5.Size = new System.Drawing.Size(65, 22);
-			this.toolStripLabel5.Text = "Модель:";
-			// 
-			// FullSearchModel
-			// 
-			this.FullSearchModel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.FullSearchModel.Name = "FullSearchModel";
-			this.FullSearchModel.Size = new System.Drawing.Size(122, 25);
-			this.FullSearchModel.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchModel_KeyDown);
-			this.FullSearchModel.TextChanged += new System.EventHandler(this.FullSearchModel_TextChanged);
-			// 
-			// toolStripLabel6
-			// 
-			this.toolStripLabel6.Name = "toolStripLabel6";
-			this.toolStripLabel6.Size = new System.Drawing.Size(102, 22);
-			this.toolStripLabel6.Text = "Серийный №:";
-			// 
-			// FullSearchSerial
-			// 
-			this.FullSearchSerial.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-			this.FullSearchSerial.Name = "FullSearchSerial";
-			this.FullSearchSerial.Size = new System.Drawing.Size(110, 25);
-			this.FullSearchSerial.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchSerial_KeyDown);
-			this.FullSearchSerial.TextChanged += new System.EventHandler(this.FullSearchSerial_TextChanged);
-			// 
-			// toolStripLabel7
-			// 
-			this.toolStripLabel7.Name = "toolStripLabel7";
-			this.toolStripLabel7.Size = new System.Drawing.Size(61, 22);
-			this.toolStripLabel7.Text = "Мастер:";
-			// 
-			// FullSearchMaster
-			// 
-			this.FullSearchMaster.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
-			this.FullSearchMaster.Name = "FullSearchMaster";
-			this.FullSearchMaster.Size = new System.Drawing.Size(121, 25);
-			this.FullSearchMaster.SelectedIndexChanged += new System.EventHandler(this.FullSearchMaster_SelectedIndexChanged);
-			this.FullSearchMaster.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchMaster_KeyDown);
-			this.FullSearchMaster.TextChanged += new System.EventHandler(this.FullSearchMaster_TextChanged);
-			// 
-			// Form1
-			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1183, 668);
-			this.Controls.Add(this.toolStrip3);
-			this.Controls.Add(this.toolStrip2);
-			this.Controls.Add(this.SearchFIOTextBox);
-			this.Controls.Add(this.toolStrip1);
-			this.Controls.Add(this.statusStrip);
-			this.Controls.Add(this.button1);
-			this.Controls.Add(this.NewClientButton);
-			this.Controls.Add(this.MainListView);
-			this.Name = "Form1";
-			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
-			this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
-			this.Load += new System.EventHandler(this.Form1_Load);
-			this.statusStrip.ResumeLayout(false);
-			this.statusStrip.PerformLayout();
-			this.toolStrip1.ResumeLayout(false);
-			this.toolStrip1.PerformLayout();
-			this.toolStrip2.ResumeLayout(false);
-			this.toolStrip2.PerformLayout();
-			this.toolStrip3.ResumeLayout(false);
-			this.toolStrip3.PerformLayout();
-			this.ResumeLayout(false);
-			this.PerformLayout();
+            this.toolStrip3.Location = new System.Drawing.Point(0, 64);
+            this.toolStrip3.Name = "toolStrip3";
+            this.toolStrip3.Size = new System.Drawing.Size(1577, 31);
+            this.toolStrip3.TabIndex = 6;
+            this.toolStrip3.Text = "toolStrip3";
+            this.toolStrip3.Visible = false;
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(48, 28);
+            this.toolStripLabel1.Text = "Тел:";
+            // 
+            // FullSearchPhone
+            // 
+            this.FullSearchPhone.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.FullSearchPhone.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.FullSearchPhone.Name = "FullSearchPhone";
+            this.FullSearchPhone.Size = new System.Drawing.Size(173, 31);
+            this.FullSearchPhone.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchPhone_KeyDown);
+            this.FullSearchPhone.TextChanged += new System.EventHandler(this.FullSearchPhone_TextChanged);
+            // 
+            // toolStripLabel3
+            // 
+            this.toolStripLabel3.Name = "toolStripLabel3";
+            this.toolStripLabel3.Size = new System.Drawing.Size(49, 28);
+            this.toolStripLabel3.Text = "Тип:";
+            // 
+            // FullSearchType
+            // 
+            this.FullSearchType.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
+            this.FullSearchType.Name = "FullSearchType";
+            this.FullSearchType.Size = new System.Drawing.Size(199, 31);
+            this.FullSearchType.SelectedIndexChanged += new System.EventHandler(this.FullSearchType_SelectedIndexChanged);
+            this.FullSearchType.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchType_KeyDown);
+            this.FullSearchType.TextChanged += new System.EventHandler(this.FullSearchType_TextChanged);
+            // 
+            // toolStripLabel4
+            // 
+            this.toolStripLabel4.Name = "toolStripLabel4";
+            this.toolStripLabel4.Size = new System.Drawing.Size(64, 28);
+            this.toolStripLabel4.Text = "Бренд:";
+            // 
+            // FullSearchBrand
+            // 
+            this.FullSearchBrand.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
+            this.FullSearchBrand.Name = "FullSearchBrand";
+            this.FullSearchBrand.Size = new System.Drawing.Size(169, 31);
+            this.FullSearchBrand.SelectedIndexChanged += new System.EventHandler(this.FullSearchBrand_SelectedIndexChanged);
+            this.FullSearchBrand.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchBrand_KeyDown);
+            this.FullSearchBrand.TextChanged += new System.EventHandler(this.FullSearchBrand_TextChanged);
+            // 
+            // toolStripLabel5
+            // 
+            this.toolStripLabel5.Name = "toolStripLabel5";
+            this.toolStripLabel5.Size = new System.Drawing.Size(79, 28);
+            this.toolStripLabel5.Text = "Модель:";
+            // 
+            // FullSearchModel
+            // 
+            this.FullSearchModel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.FullSearchModel.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.FullSearchModel.Name = "FullSearchModel";
+            this.FullSearchModel.Size = new System.Drawing.Size(162, 31);
+            this.FullSearchModel.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchModel_KeyDown);
+            this.FullSearchModel.TextChanged += new System.EventHandler(this.FullSearchModel_TextChanged);
+            // 
+            // toolStripLabel6
+            // 
+            this.toolStripLabel6.Name = "toolStripLabel6";
+            this.toolStripLabel6.Size = new System.Drawing.Size(125, 28);
+            this.toolStripLabel6.Text = "Серийный №:";
+            // 
+            // FullSearchSerial
+            // 
+            this.FullSearchSerial.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.FullSearchSerial.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.FullSearchSerial.Name = "FullSearchSerial";
+            this.FullSearchSerial.Size = new System.Drawing.Size(146, 31);
+            this.FullSearchSerial.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchSerial_KeyDown);
+            this.FullSearchSerial.TextChanged += new System.EventHandler(this.FullSearchSerial_TextChanged);
+            // 
+            // toolStripLabel7
+            // 
+            this.toolStripLabel7.Name = "toolStripLabel7";
+            this.toolStripLabel7.Size = new System.Drawing.Size(75, 28);
+            this.toolStripLabel7.Text = "Мастер:";
+            // 
+            // FullSearchMaster
+            // 
+            this.FullSearchMaster.FlatStyle = System.Windows.Forms.FlatStyle.Standard;
+            this.FullSearchMaster.Name = "FullSearchMaster";
+            this.FullSearchMaster.Size = new System.Drawing.Size(121, 31);
+            this.FullSearchMaster.SelectedIndexChanged += new System.EventHandler(this.FullSearchMaster_SelectedIndexChanged);
+            this.FullSearchMaster.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchMaster_KeyDown);
+            this.FullSearchMaster.TextChanged += new System.EventHandler(this.FullSearchMaster_TextChanged);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1577, 822);
+            this.Controls.Add(this.toolStrip3);
+            this.Controls.Add(this.toolStrip2);
+            this.Controls.Add(this.SearchFIOTextBox);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.statusStrip);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.NewClientButton);
+            this.Controls.Add(this.MainListView);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.statusStrip.ResumeLayout(false);
+            this.statusStrip.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.toolStrip2.ResumeLayout(false);
+            this.toolStrip2.PerformLayout();
+            this.toolStrip3.ResumeLayout(false);
+            this.toolStrip3.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
 	}
 }
