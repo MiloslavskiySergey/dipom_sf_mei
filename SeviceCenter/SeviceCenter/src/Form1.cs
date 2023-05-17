@@ -1931,7 +1931,7 @@ public class Form1 : Form
             this.MainListView.GridLines = true;
             this.MainListView.HideSelection = false;
             this.MainListView.Location = new System.Drawing.Point(0, 66);
-            this.MainListView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MainListView.Margin = new System.Windows.Forms.Padding(4);
             this.MainListView.MultiSelect = false;
             this.MainListView.Name = "MainListView";
             this.MainListView.Size = new System.Drawing.Size(1577, 728);
@@ -2074,7 +2074,7 @@ public class Form1 : Form
             // 
             this.NewClientButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.NewClientButton.Location = new System.Drawing.Point(0, 1);
-            this.NewClientButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NewClientButton.Margin = new System.Windows.Forms.Padding(4);
             this.NewClientButton.Name = "NewClientButton";
             this.NewClientButton.Size = new System.Drawing.Size(153, 28);
             this.NewClientButton.TabIndex = 1;
@@ -2085,7 +2085,7 @@ public class Form1 : Form
             // 
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Location = new System.Drawing.Point(161, 1);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 28);
             this.button1.TabIndex = 2;
@@ -2330,7 +2330,7 @@ public class Form1 : Form
             this.SearchFIOTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.SearchFIOTextBox.ForeColor = System.Drawing.SystemColors.InfoText;
             this.SearchFIOTextBox.Location = new System.Drawing.Point(207, 1);
-            this.SearchFIOTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SearchFIOTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.SearchFIOTextBox.Name = "SearchFIOTextBox";
             this.SearchFIOTextBox.Size = new System.Drawing.Size(189, 26);
             this.SearchFIOTextBox.TabIndex = 4;
@@ -2625,7 +2625,7 @@ public class Form1 : Form
             this.Controls.Add(this.button1);
             this.Controls.Add(this.NewClientButton);
             this.Controls.Add(this.MainListView);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);

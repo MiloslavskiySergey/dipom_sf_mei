@@ -322,125 +322,151 @@ public class Export : Form
 
 	private void InitializeComponent()
 	{
-		ExportToAndroidButton = new System.Windows.Forms.Button();
-		label1 = new System.Windows.Forms.Label();
-		label2 = new System.Windows.Forms.Label();
-		fromNumericUpDown = new System.Windows.Forms.NumericUpDown();
-		label3 = new System.Windows.Forms.Label();
-		toNumericUpDown = new System.Windows.Forms.NumericUpDown();
-		ExportToAppleButton = new System.Windows.Forms.Button();
-		AllExportNumbersButton = new System.Windows.Forms.Button();
-		((System.ComponentModel.ISupportInitialize)fromNumericUpDown).BeginInit();
-		((System.ComponentModel.ISupportInitialize)toNumericUpDown).BeginInit();
-		SuspendLayout();
-		ExportToAndroidButton.Location = new System.Drawing.Point(39, 168);
-		ExportToAndroidButton.Name = "ExportToAndroidButton";
-		ExportToAndroidButton.Size = new System.Drawing.Size(417, 23);
-		ExportToAndroidButton.TabIndex = 0;
-		ExportToAndroidButton.Text = "Для переноса в csv формат";
-		ExportToAndroidButton.UseVisualStyleBackColor = true;
-		ExportToAndroidButton.Click += new System.EventHandler(ExportToAndroidButton_Click);
-		label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-		label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label1.Location = new System.Drawing.Point(12, 9);
-		label1.Name = "label1";
-		label1.Size = new System.Drawing.Size(486, 38);
-		label1.TabIndex = 1;
-		label1.Text = "Пока еще вы не экспортировали номера телефонов";
-		label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		label2.AutoSize = true;
-		label2.Location = new System.Drawing.Point(36, 66);
-		label2.Name = "label2";
-		label2.Size = new System.Drawing.Size(259, 13);
-		label2.TabIndex = 2;
-		label2.Text = "Экспортировать телефонные номера клиентов с \r\n";
-		fromNumericUpDown.Location = new System.Drawing.Point(301, 64);
-		fromNumericUpDown.Maximum = new decimal(new int[4]
-		{
-			9999999,
-			0,
-			0,
-			0
-		});
-		fromNumericUpDown.Minimum = new decimal(new int[4]
-		{
-			1,
-			0,
-			0,
-			0
-		});
-		fromNumericUpDown.Name = "fromNumericUpDown";
-		fromNumericUpDown.Size = new System.Drawing.Size(120, 20);
-		fromNumericUpDown.TabIndex = 3;
-		fromNumericUpDown.Value = new decimal(new int[4]
-		{
-			1,
-			0,
-			0,
-			0
-		});
-		label3.AutoSize = true;
-		label3.Location = new System.Drawing.Point(273, 95);
-		label3.Name = "label3";
-		label3.Size = new System.Drawing.Size(19, 13);
-		label3.TabIndex = 4;
-		label3.Text = "по";
-		toNumericUpDown.Location = new System.Drawing.Point(301, 93);
-		toNumericUpDown.Maximum = new decimal(new int[4]
-		{
-			9999999,
-			0,
-			0,
-			0
-		});
-		toNumericUpDown.Minimum = new decimal(new int[4]
-		{
-			1,
-			0,
-			0,
-			0
-		});
-		toNumericUpDown.Name = "toNumericUpDown";
-		toNumericUpDown.Size = new System.Drawing.Size(120, 20);
-		toNumericUpDown.TabIndex = 5;
-		toNumericUpDown.Value = new decimal(new int[4]
-		{
-			1,
-			0,
-			0,
-			0
-		});
-		ExportToAppleButton.Location = new System.Drawing.Point(39, 139);
-		ExportToAppleButton.Name = "ExportToAppleButton";
-		ExportToAppleButton.Size = new System.Drawing.Size(417, 23);
-		ExportToAppleButton.TabIndex = 6;
-		ExportToAppleButton.Text = "Для переноса в Android/Iphone/Vcard";
-		ExportToAppleButton.UseVisualStyleBackColor = true;
-		ExportToAppleButton.Click += new System.EventHandler(ExportToAppleButton_Click);
-		AllExportNumbersButton.Location = new System.Drawing.Point(427, 63);
-		AllExportNumbersButton.Name = "AllExportNumbersButton";
-		AllExportNumbersButton.Size = new System.Drawing.Size(36, 51);
-		AllExportNumbersButton.TabIndex = 7;
-		AllExportNumbersButton.Text = "Все";
-		AllExportNumbersButton.UseVisualStyleBackColor = true;
-		AllExportNumbersButton.Click += new System.EventHandler(AllExportNumbersButton_Click);
-		base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-		base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-		base.ClientSize = new System.Drawing.Size(510, 203);
-		base.Controls.Add(AllExportNumbersButton);
-		base.Controls.Add(ExportToAppleButton);
-		base.Controls.Add(toNumericUpDown);
-		base.Controls.Add(label3);
-		base.Controls.Add(fromNumericUpDown);
-		base.Controls.Add(label2);
-		base.Controls.Add(label1);
-		base.Controls.Add(ExportToAndroidButton);
-		base.Name = "Export";
-		Text = "Export";
-		base.Load += new System.EventHandler(Export_Load);
-		((System.ComponentModel.ISupportInitialize)fromNumericUpDown).EndInit();
-		((System.ComponentModel.ISupportInitialize)toNumericUpDown).EndInit();
-		ResumeLayout(false);
-		PerformLayout();
+            this.ExportToAndroidButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.fromNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
+            this.toNumericUpDown = new System.Windows.Forms.NumericUpDown();
+            this.ExportToAppleButton = new System.Windows.Forms.Button();
+            this.AllExportNumbersButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.fromNumericUpDown)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toNumericUpDown)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // ExportToAndroidButton
+            // 
+            this.ExportToAndroidButton.Location = new System.Drawing.Point(52, 207);
+            this.ExportToAndroidButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ExportToAndroidButton.Name = "ExportToAndroidButton";
+            this.ExportToAndroidButton.Size = new System.Drawing.Size(556, 28);
+            this.ExportToAndroidButton.TabIndex = 0;
+            this.ExportToAndroidButton.Text = "Для переноса в csv формат";
+            this.ExportToAndroidButton.UseVisualStyleBackColor = true;
+            this.ExportToAndroidButton.Click += new System.EventHandler(this.ExportToAndroidButton_Click);
+            // 
+            // label1
+            // 
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(647, 46);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Пока еще вы не экспортировали номера телефонов";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(48, 81);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(332, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Экспортировать телефонные номера клиентов с \r\n";
+            // 
+            // fromNumericUpDown
+            // 
+            this.fromNumericUpDown.Location = new System.Drawing.Point(401, 79);
+            this.fromNumericUpDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fromNumericUpDown.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
+            this.fromNumericUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.fromNumericUpDown.Name = "fromNumericUpDown";
+            this.fromNumericUpDown.Size = new System.Drawing.Size(160, 22);
+            this.fromNumericUpDown.TabIndex = 3;
+            this.fromNumericUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(364, 117);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(23, 16);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "по";
+            // 
+            // toNumericUpDown
+            // 
+            this.toNumericUpDown.Location = new System.Drawing.Point(401, 114);
+            this.toNumericUpDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toNumericUpDown.Maximum = new decimal(new int[] {
+            9999999,
+            0,
+            0,
+            0});
+            this.toNumericUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.toNumericUpDown.Name = "toNumericUpDown";
+            this.toNumericUpDown.Size = new System.Drawing.Size(160, 22);
+            this.toNumericUpDown.TabIndex = 5;
+            this.toNumericUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // ExportToAppleButton
+            // 
+            this.ExportToAppleButton.Location = new System.Drawing.Point(52, 171);
+            this.ExportToAppleButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ExportToAppleButton.Name = "ExportToAppleButton";
+            this.ExportToAppleButton.Size = new System.Drawing.Size(556, 28);
+            this.ExportToAppleButton.TabIndex = 6;
+            this.ExportToAppleButton.Text = "Для переноса в Android/Iphone/Vcard";
+            this.ExportToAppleButton.UseVisualStyleBackColor = true;
+            this.ExportToAppleButton.Click += new System.EventHandler(this.ExportToAppleButton_Click);
+            // 
+            // AllExportNumbersButton
+            // 
+            this.AllExportNumbersButton.Location = new System.Drawing.Point(569, 78);
+            this.AllExportNumbersButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AllExportNumbersButton.Name = "AllExportNumbersButton";
+            this.AllExportNumbersButton.Size = new System.Drawing.Size(48, 63);
+            this.AllExportNumbersButton.TabIndex = 7;
+            this.AllExportNumbersButton.Text = "Все";
+            this.AllExportNumbersButton.UseVisualStyleBackColor = true;
+            this.AllExportNumbersButton.Click += new System.EventHandler(this.AllExportNumbersButton_Click);
+            // 
+            // Export
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(680, 250);
+            this.Controls.Add(this.AllExportNumbersButton);
+            this.Controls.Add(this.ExportToAppleButton);
+            this.Controls.Add(this.toNumericUpDown);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.fromNumericUpDown);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ExportToAndroidButton);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "Export";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Export";
+            this.Load += new System.EventHandler(this.Export_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.fromNumericUpDown)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.toNumericUpDown)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 	}
 }

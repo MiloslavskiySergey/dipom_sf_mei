@@ -180,146 +180,212 @@ public class DataEditor : Form
 
 	private void InitializeComponent()
 	{
-		DeleteDataPredButton = new System.Windows.Forms.Button();
-		DataVidDeleteButton = new System.Windows.Forms.Button();
-		DataVidachiLabel = new System.Windows.Forms.Label();
-		DataPredoplatiLabel = new System.Windows.Forms.Label();
-		DataPriemaLabel = new System.Windows.Forms.Label();
-		SaveDataVidButton = new System.Windows.Forms.Button();
-		SaveDataPredButton = new System.Windows.Forms.Button();
-		SaveDataPriemaButton = new System.Windows.Forms.Button();
-		label3 = new System.Windows.Forms.Label();
-		label2 = new System.Windows.Forms.Label();
-		label1 = new System.Windows.Forms.Label();
-		DataVidachiCalendar = new System.Windows.Forms.MonthCalendar();
-		DataPredoplatiCalendar = new System.Windows.Forms.MonthCalendar();
-		DataPriemaCalendar = new System.Windows.Forms.MonthCalendar();
-		label6 = new System.Windows.Forms.Label();
-		SuspendLayout();
-		DeleteDataPredButton.Location = new System.Drawing.Point(300, 203);
-		DeleteDataPredButton.Name = "DeleteDataPredButton";
-		DeleteDataPredButton.Size = new System.Drawing.Size(75, 24);
-		DeleteDataPredButton.TabIndex = 27;
-		DeleteDataPredButton.Text = "Удалить";
-		DeleteDataPredButton.UseVisualStyleBackColor = true;
-		DeleteDataPredButton.Click += new System.EventHandler(DeleteDataPredButton_Click);
-		DataVidDeleteButton.Location = new System.Drawing.Point(499, 203);
-		DataVidDeleteButton.Name = "DataVidDeleteButton";
-		DataVidDeleteButton.Size = new System.Drawing.Size(75, 23);
-		DataVidDeleteButton.TabIndex = 26;
-		DataVidDeleteButton.Text = "Удалить";
-		DataVidDeleteButton.UseVisualStyleBackColor = true;
-		DataVidDeleteButton.Click += new System.EventHandler(DataVidDeleteButton_Click);
-		DataVidachiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		DataVidachiLabel.Location = new System.Drawing.Point(409, 229);
-		DataVidachiLabel.Name = "DataVidachiLabel";
-		DataVidachiLabel.Size = new System.Drawing.Size(164, 16);
-		DataVidachiLabel.TabIndex = 25;
-		DataVidachiLabel.Text = "Не указана";
-		DataVidachiLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		DataPredoplatiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		DataPredoplatiLabel.Location = new System.Drawing.Point(211, 229);
-		DataPredoplatiLabel.Name = "DataPredoplatiLabel";
-		DataPredoplatiLabel.Size = new System.Drawing.Size(164, 16);
-		DataPredoplatiLabel.TabIndex = 24;
-		DataPredoplatiLabel.Text = "Не указана";
-		DataPredoplatiLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		DataPriemaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		DataPriemaLabel.Location = new System.Drawing.Point(9, 229);
-		DataPriemaLabel.Name = "DataPriemaLabel";
-		DataPriemaLabel.Size = new System.Drawing.Size(164, 16);
-		DataPriemaLabel.TabIndex = 23;
-		DataPriemaLabel.Text = "Не указана";
-		DataPriemaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		SaveDataVidButton.Location = new System.Drawing.Point(409, 203);
-		SaveDataVidButton.Name = "SaveDataVidButton";
-		SaveDataVidButton.Size = new System.Drawing.Size(75, 23);
-		SaveDataVidButton.TabIndex = 22;
-		SaveDataVidButton.Text = "Сохранить";
-		SaveDataVidButton.UseVisualStyleBackColor = true;
-		SaveDataVidButton.Click += new System.EventHandler(SaveDataVidButton_Click);
-		SaveDataPredButton.Location = new System.Drawing.Point(211, 203);
-		SaveDataPredButton.Name = "SaveDataPredButton";
-		SaveDataPredButton.Size = new System.Drawing.Size(74, 23);
-		SaveDataPredButton.TabIndex = 21;
-		SaveDataPredButton.Text = "Сохранить";
-		SaveDataPredButton.UseVisualStyleBackColor = true;
-		SaveDataPredButton.Click += new System.EventHandler(SaveDataPredButton_Click);
-		SaveDataPriemaButton.Location = new System.Drawing.Point(9, 203);
-		SaveDataPriemaButton.Name = "SaveDataPriemaButton";
-		SaveDataPriemaButton.Size = new System.Drawing.Size(164, 23);
-		SaveDataPriemaButton.TabIndex = 20;
-		SaveDataPriemaButton.Text = "Сохранить";
-		SaveDataPriemaButton.UseVisualStyleBackColor = true;
-		SaveDataPriemaButton.Click += new System.EventHandler(SaveDataPriemaButton_Click);
-		label3.AutoSize = true;
-		label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label3.Location = new System.Drawing.Point(449, 7);
-		label3.Name = "label3";
-		label3.Size = new System.Drawing.Size(84, 13);
-		label3.TabIndex = 19;
-		label3.Text = "Дата выдачи";
-		label2.AutoSize = true;
-		label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label2.Location = new System.Drawing.Point(236, 7);
-		label2.Name = "label2";
-		label2.Size = new System.Drawing.Size(112, 13);
-		label2.TabIndex = 18;
-		label2.Text = "Дата предоплаты";
-		label1.AutoSize = true;
-		label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label1.Location = new System.Drawing.Point(50, 7);
-		label1.Name = "label1";
-		label1.Size = new System.Drawing.Size(85, 13);
-		label1.TabIndex = 17;
-		label1.Text = "Дата приема";
-		DataVidachiCalendar.Location = new System.Drawing.Point(410, 29);
-		DataVidachiCalendar.Name = "DataVidachiCalendar";
-		DataVidachiCalendar.TabIndex = 16;
-		DataPredoplatiCalendar.Location = new System.Drawing.Point(211, 29);
-		DataPredoplatiCalendar.Name = "DataPredoplatiCalendar";
-		DataPredoplatiCalendar.TabIndex = 15;
-		DataPriemaCalendar.Location = new System.Drawing.Point(9, 29);
-		DataPriemaCalendar.Name = "DataPriemaCalendar";
-		DataPriemaCalendar.TabIndex = 14;
-		label6.AutoSize = true;
-		label6.Cursor = System.Windows.Forms.Cursors.Hand;
-		label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
-		label6.ForeColor = System.Drawing.Color.Red;
-		label6.Location = new System.Drawing.Point(561, 2);
-		label6.Name = "label6";
-		label6.Size = new System.Drawing.Size(22, 22);
-		label6.TabIndex = 186;
-		label6.Text = "X";
-		label6.Click += new System.EventHandler(label6_Click);
-		base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-		base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-		BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-		base.ClientSize = new System.Drawing.Size(583, 254);
-		base.Controls.Add(label6);
-		base.Controls.Add(DeleteDataPredButton);
-		base.Controls.Add(DataVidDeleteButton);
-		base.Controls.Add(DataVidachiLabel);
-		base.Controls.Add(DataPredoplatiLabel);
-		base.Controls.Add(DataPriemaLabel);
-		base.Controls.Add(SaveDataVidButton);
-		base.Controls.Add(SaveDataPredButton);
-		base.Controls.Add(SaveDataPriemaButton);
-		base.Controls.Add(label3);
-		base.Controls.Add(label2);
-		base.Controls.Add(label1);
-		base.Controls.Add(DataVidachiCalendar);
-		base.Controls.Add(DataPredoplatiCalendar);
-		base.Controls.Add(DataPriemaCalendar);
-		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-		base.MaximizeBox = false;
-		base.Name = "DataEditor";
-		Text = "Редактирование дат";
-		base.TopMost = true;
-		base.FormClosed += new System.Windows.Forms.FormClosedEventHandler(DataEditor_FormClosed);
-		base.Load += new System.EventHandler(DataEditor_Load);
-		base.MouseDown += new System.Windows.Forms.MouseEventHandler(DataEditor_MouseDown);
-		ResumeLayout(false);
-		PerformLayout();
+            this.DeleteDataPredButton = new System.Windows.Forms.Button();
+            this.DataVidDeleteButton = new System.Windows.Forms.Button();
+            this.DataVidachiLabel = new System.Windows.Forms.Label();
+            this.DataPredoplatiLabel = new System.Windows.Forms.Label();
+            this.DataPriemaLabel = new System.Windows.Forms.Label();
+            this.SaveDataVidButton = new System.Windows.Forms.Button();
+            this.SaveDataPredButton = new System.Windows.Forms.Button();
+            this.SaveDataPriemaButton = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.DataVidachiCalendar = new System.Windows.Forms.MonthCalendar();
+            this.DataPredoplatiCalendar = new System.Windows.Forms.MonthCalendar();
+            this.DataPriemaCalendar = new System.Windows.Forms.MonthCalendar();
+            this.label6 = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // DeleteDataPredButton
+            // 
+            this.DeleteDataPredButton.Location = new System.Drawing.Point(400, 250);
+            this.DeleteDataPredButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DeleteDataPredButton.Name = "DeleteDataPredButton";
+            this.DeleteDataPredButton.Size = new System.Drawing.Size(100, 30);
+            this.DeleteDataPredButton.TabIndex = 27;
+            this.DeleteDataPredButton.Text = "Удалить";
+            this.DeleteDataPredButton.UseVisualStyleBackColor = true;
+            this.DeleteDataPredButton.Click += new System.EventHandler(this.DeleteDataPredButton_Click);
+            // 
+            // DataVidDeleteButton
+            // 
+            this.DataVidDeleteButton.Location = new System.Drawing.Point(665, 250);
+            this.DataVidDeleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DataVidDeleteButton.Name = "DataVidDeleteButton";
+            this.DataVidDeleteButton.Size = new System.Drawing.Size(100, 28);
+            this.DataVidDeleteButton.TabIndex = 26;
+            this.DataVidDeleteButton.Text = "Удалить";
+            this.DataVidDeleteButton.UseVisualStyleBackColor = true;
+            this.DataVidDeleteButton.Click += new System.EventHandler(this.DataVidDeleteButton_Click);
+            // 
+            // DataVidachiLabel
+            // 
+            this.DataVidachiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DataVidachiLabel.Location = new System.Drawing.Point(545, 282);
+            this.DataVidachiLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DataVidachiLabel.Name = "DataVidachiLabel";
+            this.DataVidachiLabel.Size = new System.Drawing.Size(219, 20);
+            this.DataVidachiLabel.TabIndex = 25;
+            this.DataVidachiLabel.Text = "Не указана";
+            this.DataVidachiLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // DataPredoplatiLabel
+            // 
+            this.DataPredoplatiLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DataPredoplatiLabel.Location = new System.Drawing.Point(281, 282);
+            this.DataPredoplatiLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DataPredoplatiLabel.Name = "DataPredoplatiLabel";
+            this.DataPredoplatiLabel.Size = new System.Drawing.Size(219, 20);
+            this.DataPredoplatiLabel.TabIndex = 24;
+            this.DataPredoplatiLabel.Text = "Не указана";
+            this.DataPredoplatiLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // DataPriemaLabel
+            // 
+            this.DataPriemaLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.DataPriemaLabel.Location = new System.Drawing.Point(12, 282);
+            this.DataPriemaLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.DataPriemaLabel.Name = "DataPriemaLabel";
+            this.DataPriemaLabel.Size = new System.Drawing.Size(219, 20);
+            this.DataPriemaLabel.TabIndex = 23;
+            this.DataPriemaLabel.Text = "Не указана";
+            this.DataPriemaLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // SaveDataVidButton
+            // 
+            this.SaveDataVidButton.Location = new System.Drawing.Point(545, 250);
+            this.SaveDataVidButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SaveDataVidButton.Name = "SaveDataVidButton";
+            this.SaveDataVidButton.Size = new System.Drawing.Size(100, 28);
+            this.SaveDataVidButton.TabIndex = 22;
+            this.SaveDataVidButton.Text = "Сохранить";
+            this.SaveDataVidButton.UseVisualStyleBackColor = true;
+            this.SaveDataVidButton.Click += new System.EventHandler(this.SaveDataVidButton_Click);
+            // 
+            // SaveDataPredButton
+            // 
+            this.SaveDataPredButton.Location = new System.Drawing.Point(281, 250);
+            this.SaveDataPredButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SaveDataPredButton.Name = "SaveDataPredButton";
+            this.SaveDataPredButton.Size = new System.Drawing.Size(99, 28);
+            this.SaveDataPredButton.TabIndex = 21;
+            this.SaveDataPredButton.Text = "Сохранить";
+            this.SaveDataPredButton.UseVisualStyleBackColor = true;
+            this.SaveDataPredButton.Click += new System.EventHandler(this.SaveDataPredButton_Click);
+            // 
+            // SaveDataPriemaButton
+            // 
+            this.SaveDataPriemaButton.Location = new System.Drawing.Point(12, 250);
+            this.SaveDataPriemaButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SaveDataPriemaButton.Name = "SaveDataPriemaButton";
+            this.SaveDataPriemaButton.Size = new System.Drawing.Size(219, 28);
+            this.SaveDataPriemaButton.TabIndex = 20;
+            this.SaveDataPriemaButton.Text = "Сохранить";
+            this.SaveDataPriemaButton.UseVisualStyleBackColor = true;
+            this.SaveDataPriemaButton.Click += new System.EventHandler(this.SaveDataPriemaButton_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(599, 9);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(106, 17);
+            this.label3.TabIndex = 19;
+            this.label3.Text = "Дата выдачи";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label2.Location = new System.Drawing.Point(315, 9);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(142, 17);
+            this.label2.TabIndex = 18;
+            this.label2.Text = "Дата предоплаты";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(67, 9);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(106, 17);
+            this.label1.TabIndex = 17;
+            this.label1.Text = "Дата приема";
+            // 
+            // DataVidachiCalendar
+            // 
+            this.DataVidachiCalendar.Location = new System.Drawing.Point(547, 36);
+            this.DataVidachiCalendar.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
+            this.DataVidachiCalendar.Name = "DataVidachiCalendar";
+            this.DataVidachiCalendar.TabIndex = 16;
+            // 
+            // DataPredoplatiCalendar
+            // 
+            this.DataPredoplatiCalendar.Location = new System.Drawing.Point(281, 36);
+            this.DataPredoplatiCalendar.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
+            this.DataPredoplatiCalendar.Name = "DataPredoplatiCalendar";
+            this.DataPredoplatiCalendar.TabIndex = 15;
+            // 
+            // DataPriemaCalendar
+            // 
+            this.DataPriemaCalendar.Location = new System.Drawing.Point(12, 36);
+            this.DataPriemaCalendar.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
+            this.DataPriemaCalendar.Name = "DataPriemaCalendar";
+            this.DataPriemaCalendar.TabIndex = 14;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(748, 2);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(27, 26);
+            this.label6.TabIndex = 186;
+            this.label6.Text = "X";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // DataEditor
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(777, 313);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.DeleteDataPredButton);
+            this.Controls.Add(this.DataVidDeleteButton);
+            this.Controls.Add(this.DataVidachiLabel);
+            this.Controls.Add(this.DataPredoplatiLabel);
+            this.Controls.Add(this.DataPriemaLabel);
+            this.Controls.Add(this.SaveDataVidButton);
+            this.Controls.Add(this.SaveDataPredButton);
+            this.Controls.Add(this.SaveDataPriemaButton);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.DataVidachiCalendar);
+            this.Controls.Add(this.DataPredoplatiCalendar);
+            this.Controls.Add(this.DataPriemaCalendar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximizeBox = false;
+            this.Name = "DataEditor";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Редактирование дат";
+            this.TopMost = true;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.DataEditor_FormClosed);
+            this.Load += new System.EventHandler(this.DataEditor_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.DataEditor_MouseDown);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 	}
 }

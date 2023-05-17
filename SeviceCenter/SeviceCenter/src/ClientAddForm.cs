@@ -122,150 +122,210 @@ public class ClientAddForm : Form
 
 	private void InitializeComponent()
 	{
-		label30 = new System.Windows.Forms.Label();
-		label28 = new System.Windows.Forms.Label();
-		BlackListComboBox = new System.Windows.Forms.ComboBox();
-		label29 = new System.Windows.Forms.Label();
-		PrimechanieTextBox = new System.Windows.Forms.TextBox();
-		label17 = new System.Windows.Forms.Label();
-		ClientFioTextBox = new System.Windows.Forms.TextBox();
-		ClientAdressTextBox = new System.Windows.Forms.TextBox();
-		ClientAboutUsComboBox = new System.Windows.Forms.ComboBox();
-		label25 = new System.Windows.Forms.Label();
-		label26 = new System.Windows.Forms.Label();
-		ClientPhoneTextBox = new System.Windows.Forms.MaskedTextBox();
-		label27 = new System.Windows.Forms.Label();
-		AddClientButton = new System.Windows.Forms.Button();
-		SuspendLayout();
-		label30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-		label30.Cursor = System.Windows.Forms.Cursors.Hand;
-		label30.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label30.Location = new System.Drawing.Point(12, 9);
-		label30.Name = "label30";
-		label30.Size = new System.Drawing.Size(340, 46);
-		label30.TabIndex = 220;
-		label30.Text = "Очистить содержимое полей";
-		label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		label30.Click += new System.EventHandler(label30_Click);
-		label30.MouseEnter += new System.EventHandler(label30_MouseEnter);
-		label30.MouseLeave += new System.EventHandler(label30_MouseLeave);
-		label28.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label28.Location = new System.Drawing.Point(12, 233);
-		label28.Name = "label28";
-		label28.Size = new System.Drawing.Size(340, 12);
-		label28.TabIndex = 219;
-		label28.Text = "Тип клиента";
-		label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		BlackListComboBox.FormattingEnabled = true;
-		BlackListComboBox.Items.AddRange(new object[2]
-		{
-			"Не проблемный",
-			"Проблемный"
-		});
-		BlackListComboBox.Location = new System.Drawing.Point(12, 248);
-		BlackListComboBox.Name = "BlackListComboBox";
-		BlackListComboBox.Size = new System.Drawing.Size(340, 21);
-		BlackListComboBox.TabIndex = 218;
-		BlackListComboBox.Text = "Не проблемный";
-		BlackListComboBox.TextChanged += new System.EventHandler(BlackListComboBox_TextChanged);
-		label29.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label29.Location = new System.Drawing.Point(363, 9);
-		label29.Name = "label29";
-		label29.Size = new System.Drawing.Size(340, 14);
-		label29.TabIndex = 217;
-		label29.Text = "Заметка о клиенте (клиенту не видна)";
-		label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		PrimechanieTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
-		PrimechanieTextBox.Location = new System.Drawing.Point(363, 25);
-		PrimechanieTextBox.Multiline = true;
-		PrimechanieTextBox.Name = "PrimechanieTextBox";
-		PrimechanieTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-		PrimechanieTextBox.Size = new System.Drawing.Size(340, 283);
-		PrimechanieTextBox.TabIndex = 216;
-		label17.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label17.ForeColor = System.Drawing.Color.Black;
-		label17.Location = new System.Drawing.Point(12, 57);
-		label17.Name = "label17";
-		label17.Size = new System.Drawing.Size(340, 13);
-		label17.TabIndex = 212;
-		label17.Text = "ФИО";
-		label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		ClientFioTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
-		ClientFioTextBox.Location = new System.Drawing.Point(12, 72);
-		ClientFioTextBox.Name = "ClientFioTextBox";
-		ClientFioTextBox.Size = new System.Drawing.Size(340, 22);
-		ClientFioTextBox.TabIndex = 208;
-		ClientAdressTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
-		ClientAdressTextBox.Location = new System.Drawing.Point(12, 189);
-		ClientAdressTextBox.Multiline = true;
-		ClientAdressTextBox.Name = "ClientAdressTextBox";
-		ClientAdressTextBox.Size = new System.Drawing.Size(340, 41);
-		ClientAdressTextBox.TabIndex = 211;
-		ClientAboutUsComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
-		ClientAboutUsComboBox.FormattingEnabled = true;
-		ClientAboutUsComboBox.Location = new System.Drawing.Point(12, 147);
-		ClientAboutUsComboBox.Name = "ClientAboutUsComboBox";
-		ClientAboutUsComboBox.Size = new System.Drawing.Size(340, 24);
-		ClientAboutUsComboBox.TabIndex = 210;
-		label25.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label25.ForeColor = System.Drawing.Color.Black;
-		label25.Location = new System.Drawing.Point(15, 173);
-		label25.Name = "label25";
-		label25.Size = new System.Drawing.Size(337, 13);
-		label25.TabIndex = 215;
-		label25.Text = "Адрес клиента";
-		label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		label26.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label26.ForeColor = System.Drawing.Color.Black;
-		label26.Location = new System.Drawing.Point(12, 131);
-		label26.Name = "label26";
-		label26.Size = new System.Drawing.Size(340, 13);
-		label26.TabIndex = 214;
-		label26.Text = "Откуда о нас узнали";
-		label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		ClientPhoneTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75f, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 204);
-		ClientPhoneTextBox.Location = new System.Drawing.Point(12, 109);
-		ClientPhoneTextBox.Name = "ClientPhoneTextBox";
-		ClientPhoneTextBox.Size = new System.Drawing.Size(340, 22);
-		ClientPhoneTextBox.TabIndex = 209;
-		label27.Font = new System.Drawing.Font("Arial", 9f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label27.ForeColor = System.Drawing.Color.Black;
-		label27.Location = new System.Drawing.Point(12, 93);
-		label27.Name = "label27";
-		label27.Size = new System.Drawing.Size(340, 13);
-		label27.TabIndex = 213;
-		label27.Text = "Телефон";
-		label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		AddClientButton.BackgroundImage = SeviceCenter.Properties.Resources.add;
-		AddClientButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-		AddClientButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		AddClientButton.Location = new System.Drawing.Point(13, 280);
-		AddClientButton.Name = "AddClientButton";
-		AddClientButton.Size = new System.Drawing.Size(340, 28);
-		AddClientButton.TabIndex = 221;
-		AddClientButton.Text = "Добавить";
-		AddClientButton.UseVisualStyleBackColor = true;
-		AddClientButton.Click += new System.EventHandler(AddClientButton_Click);
-		base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-		base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-		base.ClientSize = new System.Drawing.Size(715, 322);
-		base.Controls.Add(AddClientButton);
-		base.Controls.Add(label30);
-		base.Controls.Add(label28);
-		base.Controls.Add(BlackListComboBox);
-		base.Controls.Add(label29);
-		base.Controls.Add(PrimechanieTextBox);
-		base.Controls.Add(label17);
-		base.Controls.Add(ClientFioTextBox);
-		base.Controls.Add(ClientAdressTextBox);
-		base.Controls.Add(ClientAboutUsComboBox);
-		base.Controls.Add(label25);
-		base.Controls.Add(label26);
-		base.Controls.Add(ClientPhoneTextBox);
-		base.Controls.Add(label27);
-		base.Name = "ClientAddForm";
-		Text = "Добавление нового клиента";
-		ResumeLayout(false);
-		PerformLayout();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.BlackListComboBox = new System.Windows.Forms.ComboBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.PrimechanieTextBox = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.ClientFioTextBox = new System.Windows.Forms.TextBox();
+            this.ClientAdressTextBox = new System.Windows.Forms.TextBox();
+            this.ClientAboutUsComboBox = new System.Windows.Forms.ComboBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.ClientPhoneTextBox = new System.Windows.Forms.MaskedTextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.AddClientButton = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // label30
+            // 
+            this.label30.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.label30.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label30.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label30.Location = new System.Drawing.Point(16, 11);
+            this.label30.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(453, 57);
+            this.label30.TabIndex = 220;
+            this.label30.Text = "Очистить содержимое полей";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label30.Click += new System.EventHandler(this.label30_Click);
+            this.label30.MouseEnter += new System.EventHandler(this.label30_MouseEnter);
+            this.label30.MouseLeave += new System.EventHandler(this.label30_MouseLeave);
+            // 
+            // label28
+            // 
+            this.label28.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label28.Location = new System.Drawing.Point(16, 287);
+            this.label28.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(453, 15);
+            this.label28.TabIndex = 219;
+            this.label28.Text = "Тип клиента";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BlackListComboBox
+            // 
+            this.BlackListComboBox.FormattingEnabled = true;
+            this.BlackListComboBox.Items.AddRange(new object[] {
+            "Не проблемный",
+            "Проблемный"});
+            this.BlackListComboBox.Location = new System.Drawing.Point(16, 305);
+            this.BlackListComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BlackListComboBox.Name = "BlackListComboBox";
+            this.BlackListComboBox.Size = new System.Drawing.Size(452, 24);
+            this.BlackListComboBox.TabIndex = 218;
+            this.BlackListComboBox.Text = "Не проблемный";
+            this.BlackListComboBox.TextChanged += new System.EventHandler(this.BlackListComboBox_TextChanged);
+            // 
+            // label29
+            // 
+            this.label29.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label29.Location = new System.Drawing.Point(484, 11);
+            this.label29.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(453, 17);
+            this.label29.TabIndex = 217;
+            this.label29.Text = "Заметка о клиенте (клиенту не видна)";
+            this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // PrimechanieTextBox
+            // 
+            this.PrimechanieTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.PrimechanieTextBox.Location = new System.Drawing.Point(484, 31);
+            this.PrimechanieTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PrimechanieTextBox.Multiline = true;
+            this.PrimechanieTextBox.Name = "PrimechanieTextBox";
+            this.PrimechanieTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.PrimechanieTextBox.Size = new System.Drawing.Size(452, 347);
+            this.PrimechanieTextBox.TabIndex = 216;
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label17.ForeColor = System.Drawing.Color.Black;
+            this.label17.Location = new System.Drawing.Point(16, 70);
+            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(453, 16);
+            this.label17.TabIndex = 212;
+            this.label17.Text = "ФИО";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ClientFioTextBox
+            // 
+            this.ClientFioTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ClientFioTextBox.Location = new System.Drawing.Point(16, 89);
+            this.ClientFioTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClientFioTextBox.Name = "ClientFioTextBox";
+            this.ClientFioTextBox.Size = new System.Drawing.Size(452, 26);
+            this.ClientFioTextBox.TabIndex = 208;
+            // 
+            // ClientAdressTextBox
+            // 
+            this.ClientAdressTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ClientAdressTextBox.Location = new System.Drawing.Point(16, 233);
+            this.ClientAdressTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClientAdressTextBox.Multiline = true;
+            this.ClientAdressTextBox.Name = "ClientAdressTextBox";
+            this.ClientAdressTextBox.Size = new System.Drawing.Size(452, 50);
+            this.ClientAdressTextBox.TabIndex = 211;
+            // 
+            // ClientAboutUsComboBox
+            // 
+            this.ClientAboutUsComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ClientAboutUsComboBox.FormattingEnabled = true;
+            this.ClientAboutUsComboBox.Location = new System.Drawing.Point(16, 181);
+            this.ClientAboutUsComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClientAboutUsComboBox.Name = "ClientAboutUsComboBox";
+            this.ClientAboutUsComboBox.Size = new System.Drawing.Size(452, 28);
+            this.ClientAboutUsComboBox.TabIndex = 210;
+            // 
+            // label25
+            // 
+            this.label25.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label25.ForeColor = System.Drawing.Color.Black;
+            this.label25.Location = new System.Drawing.Point(20, 213);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(449, 16);
+            this.label25.TabIndex = 215;
+            this.label25.Text = "Адрес клиента";
+            this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label26
+            // 
+            this.label26.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label26.ForeColor = System.Drawing.Color.Black;
+            this.label26.Location = new System.Drawing.Point(16, 161);
+            this.label26.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(453, 16);
+            this.label26.TabIndex = 214;
+            this.label26.Text = "Откуда о нас узнали";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ClientPhoneTextBox
+            // 
+            this.ClientPhoneTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ClientPhoneTextBox.Location = new System.Drawing.Point(16, 134);
+            this.ClientPhoneTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ClientPhoneTextBox.Name = "ClientPhoneTextBox";
+            this.ClientPhoneTextBox.Size = new System.Drawing.Size(452, 26);
+            this.ClientPhoneTextBox.TabIndex = 209;
+            // 
+            // label27
+            // 
+            this.label27.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label27.ForeColor = System.Drawing.Color.Black;
+            this.label27.Location = new System.Drawing.Point(16, 114);
+            this.label27.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(453, 16);
+            this.label27.TabIndex = 213;
+            this.label27.Text = "Телефон";
+            this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AddClientButton
+            // 
+            this.AddClientButton.BackgroundImage = global::SeviceCenter.Properties.Resources.add;
+            this.AddClientButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.AddClientButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.AddClientButton.Location = new System.Drawing.Point(17, 345);
+            this.AddClientButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddClientButton.Name = "AddClientButton";
+            this.AddClientButton.Size = new System.Drawing.Size(453, 34);
+            this.AddClientButton.TabIndex = 221;
+            this.AddClientButton.Text = "Добавить";
+            this.AddClientButton.UseVisualStyleBackColor = true;
+            this.AddClientButton.Click += new System.EventHandler(this.AddClientButton_Click);
+            // 
+            // ClientAddForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(953, 396);
+            this.Controls.Add(this.AddClientButton);
+            this.Controls.Add(this.label30);
+            this.Controls.Add(this.label28);
+            this.Controls.Add(this.BlackListComboBox);
+            this.Controls.Add(this.label29);
+            this.Controls.Add(this.PrimechanieTextBox);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.ClientFioTextBox);
+            this.Controls.Add(this.ClientAdressTextBox);
+            this.Controls.Add(this.ClientAboutUsComboBox);
+            this.Controls.Add(this.label25);
+            this.Controls.Add(this.label26);
+            this.Controls.Add(this.ClientPhoneTextBox);
+            this.Controls.Add(this.label27);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "ClientAddForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Добавление нового клиента";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
 	}
 }

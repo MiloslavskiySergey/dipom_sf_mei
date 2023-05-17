@@ -231,11 +231,23 @@
     <EmbeddedResource Include="src\Authorisation.resx">
       <DependentUpon>Authorisation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="src\BaseLineNumber.resx">
+      <DependentUpon>BaseLineNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\ClientAddForm.resx">
+      <DependentUpon>ClientAddForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="src\ClientEditorTrue.resx">
       <DependentUpon>ClientEditorTrue.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="src\ClientsEditor.resx">
       <DependentUpon>ClientsEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\DataEditor.resx">
+      <DependentUpon>DataEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="src\Export.resx">
+      <DependentUpon>Export.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="src\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

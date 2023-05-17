@@ -50,63 +50,75 @@ public class BaseLineNumber : Form
 
 	private void InitializeComponent()
 	{
-		System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseLineNumber));
-		label1 = new System.Windows.Forms.Label();
-		IncrementValueUpDown = new System.Windows.Forms.NumericUpDown();
-		NextButton = new System.Windows.Forms.Button();
-		((System.ComponentModel.ISupportInitialize)IncrementValueUpDown).BeginInit();
-		SuspendLayout();
-		label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10f, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 204);
-		label1.Location = new System.Drawing.Point(12, 9);
-		label1.Name = "label1";
-		label1.Size = new System.Drawing.Size(433, 131);
-		label1.TabIndex = 0;
-		label1.Text = "Сейчас будет создан файл базы данных, в котором будут храниться все записи о ваших клиентах, возможно вы захотите, чтобы нумерация начиналась не с 1, а с другого числа ( у вас уже была другая база, и чтобы не путать номера квитанций  и т.п.) Для этого введите нужное число ниже, или оставьте все как есть. Для продолжения нажмите кнопку \"Далее\"";
-		label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-		IncrementValueUpDown.Location = new System.Drawing.Point(15, 163);
-		IncrementValueUpDown.Maximum = new decimal(new int[4]
-		{
-			999999,
-			0,
-			0,
-			0
-		});
-		IncrementValueUpDown.Minimum = new decimal(new int[4]
-		{
-			1,
-			0,
-			0,
-			0
-		});
-		IncrementValueUpDown.Name = "IncrementValueUpDown";
-		IncrementValueUpDown.Size = new System.Drawing.Size(214, 20);
-		IncrementValueUpDown.TabIndex = 1;
-		IncrementValueUpDown.Value = new decimal(new int[4]
-		{
-			1,
-			0,
-			0,
-			0
-		});
-		NextButton.Location = new System.Drawing.Point(235, 161);
-		NextButton.Name = "NextButton";
-		NextButton.Size = new System.Drawing.Size(210, 23);
-		NextButton.TabIndex = 2;
-		NextButton.Text = "Далее";
-		NextButton.UseVisualStyleBackColor = true;
-		NextButton.Click += new System.EventHandler(NextButton_Click);
-		base.AutoScaleDimensions = new System.Drawing.SizeF(6f, 13f);
-		base.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-		base.ClientSize = new System.Drawing.Size(457, 204);
-		base.Controls.Add(NextButton);
-		base.Controls.Add(IncrementValueUpDown);
-		base.Controls.Add(label1);
-		base.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-		base.Name = "BaseLineNumber";
-		Text = "BaseLineNumber";
-		base.TopMost = true;
-		base.FormClosed += new System.Windows.Forms.FormClosedEventHandler(BaseLineNumber_FormClosed);
-		((System.ComponentModel.ISupportInitialize)IncrementValueUpDown).EndInit();
-		ResumeLayout(false);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BaseLineNumber));
+            this.label1 = new System.Windows.Forms.Label();
+            this.IncrementValueUpDown = new System.Windows.Forms.NumericUpDown();
+            this.NextButton = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.IncrementValueUpDown)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(16, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(577, 161);
+            this.label1.TabIndex = 0;
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // IncrementValueUpDown
+            // 
+            this.IncrementValueUpDown.Location = new System.Drawing.Point(20, 201);
+            this.IncrementValueUpDown.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.IncrementValueUpDown.Maximum = new decimal(new int[] {
+            999999,
+            0,
+            0,
+            0});
+            this.IncrementValueUpDown.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.IncrementValueUpDown.Name = "IncrementValueUpDown";
+            this.IncrementValueUpDown.Size = new System.Drawing.Size(285, 22);
+            this.IncrementValueUpDown.TabIndex = 1;
+            this.IncrementValueUpDown.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // NextButton
+            // 
+            this.NextButton.Location = new System.Drawing.Point(313, 198);
+            this.NextButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NextButton.Name = "NextButton";
+            this.NextButton.Size = new System.Drawing.Size(280, 28);
+            this.NextButton.TabIndex = 2;
+            this.NextButton.Text = "Далее";
+            this.NextButton.UseVisualStyleBackColor = true;
+            this.NextButton.Click += new System.EventHandler(this.NextButton_Click);
+            // 
+            // BaseLineNumber
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(609, 251);
+            this.Controls.Add(this.NextButton);
+            this.Controls.Add(this.IncrementValueUpDown);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Name = "BaseLineNumber";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "BaseLineNumber";
+            this.TopMost = true;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.BaseLineNumber_FormClosed);
+            ((System.ComponentModel.ISupportInitialize)(this.IncrementValueUpDown)).EndInit();
+            this.ResumeLayout(false);
+
 	}
 }
