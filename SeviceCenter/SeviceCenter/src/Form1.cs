@@ -210,7 +210,6 @@ public class Form1 : Form
 	private ToolStripTextBox FullSearchSerial;
 
 	private ToolStripLabel toolStripLabel7;
-	private ToolStripButton SmsStripButton;
 	private ToolStripComboBox FullSearchMaster;
 
 	public Form1()
@@ -488,7 +487,6 @@ public class Form1 : Form
 	{
 		AddPositionButton.Enabled = ((TemporaryBase.addZapis == "1") ? true : false);
 		SettingsButton.Enabled = ((TemporaryBase.settings == "1") ? true : false);
-		SmsStripButton.Enabled = ((TemporaryBase.sms == "1") ? true : false);
 		toolStripButton2.Enabled = ((TemporaryBase.graf == "1") ? true : false);
 		StockButton.Enabled = ((TemporaryBase.stock == "1") ? true : false);
 		toolStripButton3.Enabled = ((TemporaryBase.clients == "1") ? true : false);
@@ -1845,7 +1843,6 @@ public class Form1 : Form
             this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton2 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.SmsStripButton = new System.Windows.Forms.ToolStripButton();
             this.SettingsButton = new System.Windows.Forms.ToolStripButton();
             this.ReadyFilterCheckBox = new System.Windows.Forms.ToolStripButton();
             this.ServiceAdressComboBox = new System.Windows.Forms.ToolStripComboBox();
@@ -2147,7 +2144,6 @@ public class Form1 : Form
             this.toolStripSeparator7,
             this.toolStripButton2,
             this.toolStripSeparator5,
-            this.SmsStripButton,
             this.SettingsButton,
             this.ReadyFilterCheckBox,
             this.ServiceAdressComboBox,
@@ -2204,9 +2200,10 @@ public class Form1 : Form
             // 
             // SearchFullButton
             // 
+            this.SearchFullButton.Image = global::SeviceCenter.Properties.Resources.search;
             this.SearchFullButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.SearchFullButton.Name = "SearchFullButton";
-            this.SearchFullButton.Size = new System.Drawing.Size(128, 28);
+            this.SearchFullButton.Size = new System.Drawing.Size(148, 28);
             this.SearchFullButton.Text = "Расширенный";
             this.SearchFullButton.Click += new System.EventHandler(this.SearchFullButton_Click);
             // 
@@ -2249,7 +2246,7 @@ public class Form1 : Form
             // toolStripButton2
             // 
             this.toolStripButton2.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton2.Image = global::SeviceCenter.Properties.Resources.graf;
+            this.toolStripButton2.Image = global::SeviceCenter.Properties.Resources.graph;
             this.toolStripButton2.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton2.Name = "toolStripButton2";
             this.toolStripButton2.Size = new System.Drawing.Size(29, 28);
@@ -2261,20 +2258,12 @@ public class Form1 : Form
             this.toolStripSeparator5.Name = "toolStripSeparator5";
             this.toolStripSeparator5.Size = new System.Drawing.Size(6, 31);
             // 
-            // SmsStripButton
-            // 
-            this.SmsStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.SmsStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.SmsStripButton.Name = "SmsStripButton";
-            this.SmsStripButton.Size = new System.Drawing.Size(29, 28);
-            this.SmsStripButton.Text = "Отправка смс";
-            this.SmsStripButton.Click += new System.EventHandler(this.SmsStripButton_Click);
-            // 
             // SettingsButton
             // 
+            this.SettingsButton.Image = global::SeviceCenter.Properties.Resources.settings;
             this.SettingsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.SettingsButton.Name = "SettingsButton";
-            this.SettingsButton.Size = new System.Drawing.Size(102, 28);
+            this.SettingsButton.Size = new System.Drawing.Size(122, 28);
             this.SettingsButton.Text = "Настройки";
             this.SettingsButton.Click += new System.EventHandler(this.SettingsButton_Click);
             // 
@@ -2282,7 +2271,7 @@ public class Form1 : Form
             // 
             this.ReadyFilterCheckBox.BackColor = System.Drawing.SystemColors.Control;
             this.ReadyFilterCheckBox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ReadyFilterCheckBox.Image = global::SeviceCenter.Properties.Resources.Gotovo;
+            this.ReadyFilterCheckBox.Image = global::SeviceCenter.Properties.Resources.check_circle_outline_16;
             this.ReadyFilterCheckBox.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.ReadyFilterCheckBox.Name = "ReadyFilterCheckBox";
             this.ReadyFilterCheckBox.Size = new System.Drawing.Size(91, 28);
@@ -2303,9 +2292,10 @@ public class Form1 : Form
             // 
             // StockButton
             // 
+            this.StockButton.Image = global::SeviceCenter.Properties.Resources.stock;
             this.StockButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.StockButton.Name = "StockButton";
-            this.StockButton.Size = new System.Drawing.Size(62, 28);
+            this.StockButton.Size = new System.Drawing.Size(82, 28);
             this.StockButton.Text = "Склад";
             this.StockButton.ToolTipText = "Склад";
             this.StockButton.Click += new System.EventHandler(this.StockButton_Click);
@@ -2317,9 +2307,10 @@ public class Form1 : Form
             // 
             // toolStripButton3
             // 
+            this.toolStripButton3.Image = global::SeviceCenter.Properties.Resources.clients;
             this.toolStripButton3.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton3.Name = "toolStripButton3";
-            this.toolStripButton3.Size = new System.Drawing.Size(88, 28);
+            this.toolStripButton3.Size = new System.Drawing.Size(108, 28);
             this.toolStripButton3.Text = "Клиенты";
             this.toolStripButton3.Click += new System.EventHandler(this.toolStripButton3_Click);
             // 

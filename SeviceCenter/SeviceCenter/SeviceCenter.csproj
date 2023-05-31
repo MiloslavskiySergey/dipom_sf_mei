@@ -322,11 +322,15 @@
     <None Include="pic\check_circle_outline_blank_16.png" />
     <Content Include="pic\chip.png" />
     <None Include="pic\clock.png" />
+    <None Include="pic\clients.png" />
     <Content Include="pic\Gotovo.png" />
     <None Include="pic\graf.png" />
+    <None Include="pic\graph.png" />
     <Content Include="pic\kcmprocessor.png" />
     <Content Include="pic\loader-small.gif" />
     <Content Include="pic\phone.png" />
+    <None Include="pic\settings.png" />
+    <None Include="pic\search.png" />
     <Content Include="pic\Solglasovano.png" />
     <None Include="pic\Status_diagnostika.png" />
     <None Include="pic\Status_inWork.png" />
@@ -337,6 +341,7 @@
     <None Include="pic\Status_Vidan.png" />
     <None Include="pic\StatusReady.png" />
     <None Include="pic\Status_allOreders.png" />
+    <None Include="pic\stock.png" />
     <Content Include="pic\tp.png" />
     <Content Include="pic\zapchast.png" />
     <None Include="Resources\zapchast.png" />
