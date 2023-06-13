@@ -37,9 +37,11 @@ namespace SeviceCenter.src
 			settings.DbUserPassword = txtUserPassword.Text;
 
 			settings.Save();
-			Close();
-			
-			
-		}
+			//Close();
+			Application.Restart();
+            Environment.Exit(0);
+
+
+        }
 	}
 }
