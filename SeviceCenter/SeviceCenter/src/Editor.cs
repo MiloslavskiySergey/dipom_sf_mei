@@ -71,7 +71,7 @@ public class Editor : Form
 
 	private IniFile INIF = new IniFile("Config.ini");
 
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private bool autoButton = true;
 
@@ -241,7 +241,7 @@ public class Editor : Form
 
 	public Button OpenFolderButton;
 
-	public Editor(Form1 fm1, string id_bd)
+	public Editor(MainForm fm1, string id_bd)
 	{
 		mainForm = fm1;
 		this.id_bd = id_bd;

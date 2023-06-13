@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 public class ActVidachiPoGarantii : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private string id_bd;
 
@@ -31,7 +31,7 @@ public class ActVidachiPoGarantii : Form
 
 	private WebBrowser webBrowser1;
 
-	public ActVidachiPoGarantii(DataTable dtabe, Form1 mf, string valuta)
+	public ActVidachiPoGarantii(DataTable dtabe, MainForm mf, string valuta)
 	{
 		valutaMain = valuta;
 		InitializeComponent();

@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 public class RedaktorAktov : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private HtmlWorker htmw1 = new HtmlWorker();
 
@@ -54,7 +54,7 @@ public class RedaktorAktov : Form
 
 	private Button AktPiemaButton;
 
-	public RedaktorAktov(Form1 fm1)
+	public RedaktorAktov(MainForm fm1)
 	{
 		mainForm = fm1;
 		InitializeComponent();

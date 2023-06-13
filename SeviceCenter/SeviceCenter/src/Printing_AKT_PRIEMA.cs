@@ -14,7 +14,7 @@ using System.Windows.Forms;
 
 public class Printing_AKT_PRIEMA : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private string id_bd;
 
@@ -91,7 +91,7 @@ public class Printing_AKT_PRIEMA : Form
 		return "Месяц не указан";
 	}
 
-	public Printing_AKT_PRIEMA(DataTable dtabe, Form1 mf, string valuta)
+	public Printing_AKT_PRIEMA(DataTable dtabe, MainForm mf, string valuta)
 	{
 		valutaMain = valuta;
 		InitializeComponent();

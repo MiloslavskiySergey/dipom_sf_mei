@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 public class ActPriemaPoGarantii : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private string id_bd;
 
@@ -90,7 +90,7 @@ public class ActPriemaPoGarantii : Form
 		return "Месяц не указан";
 	}
 
-	public ActPriemaPoGarantii(DataTable dtabe, Form1 mf, string valuta)
+	public ActPriemaPoGarantii(DataTable dtabe, MainForm mf, string valuta)
 	{
 		valutaMain = valuta;
 		InitializeComponent();

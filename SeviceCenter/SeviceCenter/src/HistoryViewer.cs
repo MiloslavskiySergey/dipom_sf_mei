@@ -13,7 +13,7 @@ public class HistoryViewer : Form
 
 	public List<HistoryViewerListViewLoader> HistoryList = new List<HistoryViewerListViewLoader>();
 
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private bool dataSearcherRetriview = false;
 
@@ -63,7 +63,7 @@ public class HistoryViewer : Form
 
 	private TextBox FullWhatTextBox;
 
-	public HistoryViewer(Form1 mf)
+	public HistoryViewer(MainForm mf)
 	{
 		mainForm = mf;
 		InitializeComponent();

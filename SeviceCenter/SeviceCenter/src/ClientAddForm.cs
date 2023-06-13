@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 public class ClientAddForm : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private ClientsEditor clientsForm;
 
@@ -41,7 +41,7 @@ public class ClientAddForm : Form
 
 	public Label label27;
 
-	public ClientAddForm(Form1 mf, ClientsEditor ce)
+	public ClientAddForm(MainForm mf, ClientsEditor ce)
 	{
 		InitializeComponent();
 		mainForm = mf;

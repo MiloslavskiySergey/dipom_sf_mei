@@ -19,7 +19,7 @@ internal static class Program
 		}
 		else
 		{
-			Application.Run(new Form1());
+			Application.Run(new MainForm());
 		}
 	}
 

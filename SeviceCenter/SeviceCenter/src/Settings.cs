@@ -46,7 +46,7 @@ public class Settings : Form
 
 	private string editDates = "1";
 
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private IniFile INIF = new IniFile("Config.ini");
 
@@ -144,7 +144,7 @@ public class Settings : Form
 	public TabControl SetTab;
 	private FolderBrowserDialog folderBrowserDialog1;
 
-	public Settings(Form1 fm1)
+	public Settings(MainForm fm1)
 	{
 		mainForm = fm1;
 		InitializeComponent();

@@ -13,7 +13,7 @@ using System.Windows.Forms.DataVisualization.Charting;
 
 public class Graf : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private List<string> models = new List<string>();
 
@@ -69,7 +69,7 @@ public class Graf : Form
 
 	private Button AboutUsStatButton;
 
-	public Graf(Form1 mf)
+	public Graf(MainForm mf)
 	{
 		mainForm = mf;
 		InitializeComponent();

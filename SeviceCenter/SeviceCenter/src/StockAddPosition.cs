@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 public class StockAddPosition : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private Stock stockForm;
 
@@ -69,7 +69,7 @@ public class StockAddPosition : Form
 
 	private Button button4;
 
-	public StockAddPosition(Form1 mf, Stock st1)
+	public StockAddPosition(MainForm mf, Stock st1)
 	{
 		InitializeComponent();
 		mainForm = mf;

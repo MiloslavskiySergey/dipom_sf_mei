@@ -14,7 +14,7 @@ public class Export : Form
 {
 	private IniFile INIF = new IniFile("Config.ini");
 
-	private Form1 MainForm;
+	private MainForm MainForm;
 
 	private IContainer components = null;
 
@@ -34,7 +34,7 @@ public class Export : Form
 
 	private Button AllExportNumbersButton;
 
-	public Export(Form1 fm1)
+	public Export(MainForm fm1)
 	{
 		InitializeComponent();
 		MainForm = fm1;

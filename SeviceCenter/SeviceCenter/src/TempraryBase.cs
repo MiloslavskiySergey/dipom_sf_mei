@@ -13,7 +13,7 @@ public static class TemporaryBase
 
 	public static BDWorker basa;
 
-	public static Form1 mainForm;
+	public static MainForm mainForm;
 
 	public static string FIO = "";
 

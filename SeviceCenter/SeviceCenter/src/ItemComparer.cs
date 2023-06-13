@@ -10,7 +10,7 @@ internal class ItemComparer : IComparer
 
 	private bool sortAscending = false;
 
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	public int ColumnIndex
 	{
@@ -526,7 +526,7 @@ internal class ItemComparer : IComparer
 		}
 	}
 
-	public ItemComparer(Form1 mf)
+	public ItemComparer(MainForm mf)
 	{
 		mainForm = mf;
 	}

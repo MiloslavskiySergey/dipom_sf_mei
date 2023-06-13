@@ -12,11 +12,11 @@ using System.Windows.Forms;
 public class BDWorker
 {
 
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	public string dbFileName = "baza.sqlite";
 
-	public BDWorker(Form1 fm)
+	public BDWorker(MainForm fm)
 	{
 		mainForm = fm;
 	}

@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 public class DataEditor : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private Editor ed1;
 
@@ -45,7 +45,7 @@ public class DataEditor : Form
 
 	public Label label6;
 
-	public DataEditor(Form1 mf, string id_bd, Editor ed)
+	public DataEditor(MainForm mf, string id_bd, Editor ed)
 	{
 		mainForm = mf;
 		this.id_bd = id_bd;

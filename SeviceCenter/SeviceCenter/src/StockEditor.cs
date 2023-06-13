@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 public class StockEditor : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private string idOfZip = "0";
 
@@ -111,7 +111,7 @@ public class StockEditor : Form
 
 	private Label UsedZipCounterLabel;
 
-	public StockEditor(Form1 mf, string idOfZip, Stock st1, string idInMainBd = "-1", Editor ed1 = null, string clientId = "")
+	public StockEditor(MainForm mf, string idOfZip, Stock st1, string idInMainBd = "-1", Editor ed1 = null, string clientId = "")
 	{
 		InitializeComponent();
 		mainForm = mf;

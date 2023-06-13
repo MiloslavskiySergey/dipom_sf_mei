@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 public class Printing_AKT_VIDACHI : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private string id_bd;
 
@@ -31,7 +31,7 @@ public class Printing_AKT_VIDACHI : Form
 
 	private Button button2;
 
-	public Printing_AKT_VIDACHI(DataTable dtabe, Form1 mf, string valuta)
+	public Printing_AKT_VIDACHI(DataTable dtabe, MainForm mf, string valuta)
 	{
 		valutaMain = valuta;
 		InitializeComponent();

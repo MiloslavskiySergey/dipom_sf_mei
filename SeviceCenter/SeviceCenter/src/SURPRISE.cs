@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 public class SURPRISE : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private IContainer components = null;
 
@@ -35,7 +35,7 @@ public class SURPRISE : Form
 
 	private Button button7;
 
-	public SURPRISE(Form1 fm)
+	public SURPRISE(MainForm fm)
 	{
 		mainForm = fm;
 		InitializeComponent();

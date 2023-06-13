@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 public class Stock : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private itemComparerStock itcStock;
 
@@ -65,7 +65,7 @@ public class Stock : Form
 
 	private CheckBox ClientUsedCheckBox;
 
-	public Stock(Form1 mf, string idInMainBd = "-1", Editor ed1 = null, string Client_id_inBase = "")
+	public Stock(MainForm mf, string idInMainBd = "-1", Editor ed1 = null, string Client_id_inBase = "")
 	{
 		InitializeComponent();
 		mainForm = mf;

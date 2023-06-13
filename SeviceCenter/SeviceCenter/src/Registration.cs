@@ -13,7 +13,7 @@ public class Registration : Form
 {
 	private IniFile INIF = new IniFile("Config.ini");
 
-	private Form1 mform;
+	private MainForm mform;
 
 	private IContainer components = null;
 
@@ -31,7 +31,7 @@ public class Registration : Form
 
 	private TextBox textBox1;
 
-	public Registration(Form1 mf)
+	public Registration(MainForm mf)
 	{
 		InitializeComponent();
 		base.TopMost = true;

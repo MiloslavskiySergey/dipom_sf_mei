@@ -11,7 +11,7 @@ public class Authorisation : Form
 {
 	private IniFile INIF = new IniFile("Config.ini");
 
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private IContainer components = null;
 
@@ -27,7 +27,7 @@ public class Authorisation : Form
 	private Button btnSetting;
 	private Button EnterButton;
 
-	public Authorisation(Form1 fm)
+	public Authorisation(MainForm fm)
 	{
 		InitializeComponent();
 		mainForm = fm;

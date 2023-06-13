@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 public class AddPosition : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private IniFile INIF = new IniFile("Config.ini");
 
@@ -125,7 +125,7 @@ public class AddPosition : Form
 
 	public Panel panel1;
 
-	public AddPosition(Form1 mf)
+	public AddPosition(MainForm mf)
 	{
 		mainForm = mf;
 		InitializeComponent();

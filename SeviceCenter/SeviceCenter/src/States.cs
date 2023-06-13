@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 public class States : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private string id_client;
 
@@ -28,7 +28,7 @@ public class States : Form
 
 	private Button DeleteStateButton1;
 
-	public States(Form1 mf, string id_client, Editor ed1)
+	public States(MainForm mf, string id_client, Editor ed1)
 	{
 		InitializeComponent();
 		mainForm = mf;

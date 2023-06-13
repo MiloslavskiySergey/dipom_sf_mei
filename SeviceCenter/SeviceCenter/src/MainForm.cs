@@ -15,7 +15,7 @@ using System.Threading;
 using System.Windows.Forms;
 using System.Xml;
 
-public class Form1 : Form
+public class MainForm : Form
 {
 	public List<VirtualClient> VCList = new List<VirtualClient>();
 
@@ -212,7 +212,7 @@ public class Form1 : Form
 	private ToolStripLabel toolStripLabel7;
 	private ToolStripComboBox FullSearchMaster;
 
-	public Form1()
+	public MainForm()
 	{
 		DbContext.Instance.Connect();
 		TemporaryBase.UserKey = Registration.getHDD();
@@ -692,24 +692,6 @@ public class Form1 : Form
 			StreamWriter streamWriter16 = new StreamWriter(stream16);
 			streamWriter16.WriteLine("ИП Какойктото В.Е., ОГРНИП 315100234567334 от 19.05.2015 г., ИНН 112301774509");
 			streamWriter16.Close();
-		}
-	}
-
-	public void CheckUpdates()
-	{
-		try
-		{
-			XmlDocument xmlDocument = new XmlDocument();
-			xmlDocument.Load("http://mywork2.ru/version.xml");
-			Version v = new Version(xmlDocument.GetElementsByTagName("version")[0].InnerText);
-			Version v2 = new Version(Application.ProductVersion);
-			if (v2 < v && MessageBox.Show("Обнаружено обновление, скачать?", "Вы уверены?", MessageBoxButtons.OKCancel) == DialogResult.OK)
-			{
-				Process.Start("http://mywork2.ru/update.html");
-			}
-		}
-		catch (Exception)
-		{
 		}
 	}
 
@@ -2603,7 +2585,7 @@ public class Form1 : Form
             this.FullSearchMaster.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FullSearchMaster_KeyDown);
             this.FullSearchMaster.TextChanged += new System.EventHandler(this.FullSearchMaster_TextChanged);
             // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -2617,7 +2599,7 @@ public class Form1 : Form
             this.Controls.Add(this.NewClientButton);
             this.Controls.Add(this.MainListView);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);

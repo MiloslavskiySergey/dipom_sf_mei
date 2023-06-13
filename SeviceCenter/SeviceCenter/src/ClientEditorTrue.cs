@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 public class ClientEditorTrue : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private string ClID;
 
@@ -46,7 +46,7 @@ public class ClientEditorTrue : Form
 
 	public Label label27;
 
-	public ClientEditorTrue(Form1 mf, string clientID, ClientsEditor ce)
+	public ClientEditorTrue(MainForm mf, string clientID, ClientsEditor ce)
 	{
 		InitializeComponent();
 		mainForm = mf;

@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 public class ClientsEditor : Form
 {
-	private Form1 mainForm;
+	private MainForm mainForm;
 
 	private ItemComparerClients itemComparerClients;
 
@@ -57,7 +57,7 @@ public class ClientsEditor : Form
 
 	public Panel panel1;
 
-	public ClientsEditor(Form1 mf)
+	public ClientsEditor(MainForm mf)
 	{
 		InitializeComponent();
 		mainForm = mf;
